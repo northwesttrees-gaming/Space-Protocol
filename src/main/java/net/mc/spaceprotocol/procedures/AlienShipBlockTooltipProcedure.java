@@ -1,6 +1,6 @@
 package net.mc.spaceprotocol.procedures;
 
-import net.neoforged.bus.api.Event;
+import net.minecraft.network.chat.Component;
 
 public class AlienShipBlockTooltipProcedure {
 	public static String execute() {

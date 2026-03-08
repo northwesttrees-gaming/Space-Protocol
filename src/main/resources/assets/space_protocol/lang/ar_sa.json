@@ -4,5 +4,16 @@
   "tooltip.space_protocol.alien_ship_vertical_panel": "لوحة فضائية طويلة لجدران السفينة",
   "tooltip.space_protocol.alien_ship_tiles": "بلاطات أنيقة من أرضية فضائية",
   "tooltip.space_protocol.alien_ship_horizontal_panel": "لوحة فضائية عريضة لجدران السفينة",
-  "tooltip.space_protocol.alien_ship_block": "معدن غريب من مركبة فضائية"
+  "tooltip.space_protocol.alien_ship_block": "معدن غريب من مركبة فضائية",
+  "item.space_protocol.alien_ship_block": "Alien Ship Block",
+  "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+  "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+  "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+  "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+  "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+  "item.space_protocol.selvian": "Selvian",
+  "item.space_protocol.raw_solder": "Raw Solder",
+  "item.space_protocol.solder_ingot": "Solder Ingot",
+  "item_group.space_protocol.space_protocol": "Space Protocol",
+  "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
 }

@@ -1,6 +1,29 @@
 package net.mc.spaceprotocol.block;
 
-import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
+import net.minecraft.world.level.pathfinder.PathType;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.component.TooltipDisplay;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
+import net.minecraft.core.BlockPos;
+
+import net.mc.spaceprotocol.procedures.AlienShipTilesTooltipProcedure;
+import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
+import net.mc.spaceprotocol.SpaceProtocolMod;
+
+import java.util.function.Consumer;
 
 public class AlienShipTilesBlock extends Block {
 	public AlienShipTilesBlock(BlockBehaviour.Properties properties) {

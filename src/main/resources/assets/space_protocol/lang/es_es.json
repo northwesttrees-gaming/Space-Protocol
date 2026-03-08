@@ -4,5 +4,16 @@
   "tooltip.space_protocol.alien_ship_vertical_panel": "Panel alienígena alto para paredes de la nave",
   "tooltip.space_protocol.alien_ship_tiles": "Baldosas elegantes de suelo alienígena",
   "tooltip.space_protocol.alien_ship_horizontal_panel": "Panel alienígena ancho para paredes de la nave",
-  "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena"
+  "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena",
+  "item.space_protocol.alien_ship_block": "Alien Ship Block",
+  "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+  "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+  "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+  "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+  "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+  "item.space_protocol.selvian": "Selvian",
+  "item.space_protocol.raw_solder": "Raw Solder",
+  "item.space_protocol.solder_ingot": "Solder Ingot",
+  "item_group.space_protocol.space_protocol": "Space Protocol",
+  "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
 }

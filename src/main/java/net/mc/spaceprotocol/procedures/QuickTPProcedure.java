@@ -1,6 +1,16 @@
 package net.mc.spaceprotocol.procedures;
 
+import net.neoforged.neoforge.event.ServerChatEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.Event;
+
+import net.minecraft.world.entity.Entity;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.commands.CommandSourceStack;
+import net.minecraft.commands.CommandSource;
+
+import javax.annotation.Nullable;
 
 @EventBusSubscriber
 public class QuickTPProcedure {

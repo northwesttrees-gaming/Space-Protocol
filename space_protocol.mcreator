@@ -59,7 +59,6 @@
           "src/main/resources/assets/space_protocol/items/selvian_solder_ore.json",
           "src/main/resources/assets/space_protocol/blockstates/selvian_solder_ore.json",
           "src/main/java/net/mc/spaceprotocol/block/SelvianSolderOreBlock.java",
-          "src/main/resources/data/space_protocol/loot_table/blocks/selvian_solder_ore.json",
           "src/main/resources/assets/space_protocol/models/block/selvian_solder_ore.json"
         ]
       },
@@ -405,7 +404,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Tall alien panel for ship walls",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Wide alien panel for ship walls",
       "tooltip.space_protocol.alien_ship_ceiling_light": "Cold glow of alien technology",
-      "tooltip.space_protocol.alien_ship_tiles": "Sleek tiles from alien flooring"
+      "tooltip.space_protocol.alien_ship_tiles": "Sleek tiles from alien flooring",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "ar_sa": {
       "biome.space_protocol.alien_destroyer_biome": "منطقة أحيائية لمُدمِّر فضائي",
@@ -413,7 +423,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "لوحة فضائية طويلة لجدران السفينة",
       "tooltip.space_protocol.alien_ship_tiles": "بلاطات أنيقة من أرضية فضائية",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "لوحة فضائية عريضة لجدران السفينة",
-      "tooltip.space_protocol.alien_ship_block": "معدن غريب من مركبة فضائية"
+      "tooltip.space_protocol.alien_ship_block": "معدن غريب من مركبة فضائية",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "es_es": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma del destructor alienígena",
@@ -421,7 +442,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Panel alienígena alto para paredes de la nave",
       "tooltip.space_protocol.alien_ship_tiles": "Baldosas elegantes de suelo alienígena",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Panel alienígena ancho para paredes de la nave",
-      "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena"
+      "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "fr_fr": {
       "biome.space_protocol.alien_destroyer_biome": "Biome du destructeur alien",
@@ -429,7 +461,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Grand panneau alien pour les murs du vaisseau",
       "tooltip.space_protocol.alien_ship_tiles": "Dalles élégantes d’un sol alien",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Large panneau alien pour les murs du vaisseau",
-      "tooltip.space_protocol.alien_ship_block": "Métal étrange provenant d’un vaisseau alien"
+      "tooltip.space_protocol.alien_ship_block": "Métal étrange provenant d’un vaisseau alien",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "nl_nl": {
       "biome.space_protocol.alien_destroyer_biome": "Alien vernietiger-bioom",
@@ -437,7 +480,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Lang alienpaneel voor scheepsmuren",
       "tooltip.space_protocol.alien_ship_tiles": "Strakke tegels van alienvloer",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Breed alienpaneel voor scheepsmuren",
-      "tooltip.space_protocol.alien_ship_block": "Vreemd metaal van een alienscheep"
+      "tooltip.space_protocol.alien_ship_block": "Vreemd metaal van een alienscheep",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "de_de": {
       "biome.space_protocol.alien_destroyer_biome": "Alien-Zerstörer-Biom",
@@ -445,7 +499,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Hohes Alien-Panel für Schiffswände",
       "tooltip.space_protocol.alien_ship_tiles": "Glänzende Fliesen eines Alienbodens",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Breites Alien-Panel für Schiffswände",
-      "tooltip.space_protocol.alien_ship_block": "Seltsames Metall aus einem Alien-Raumschiff"
+      "tooltip.space_protocol.alien_ship_block": "Seltsames Metall aus einem Alien-Raumschiff",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     },
     "pt_pt": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma do destruidor alienígena",
@@ -453,7 +518,18 @@
       "tooltip.space_protocol.alien_ship_vertical_panel": "Painel alienígena alto para paredes da nave",
       "tooltip.space_protocol.alien_ship_tiles": "Ladrilhos elegantes de piso alienígena",
       "tooltip.space_protocol.alien_ship_horizontal_panel": "Painel alienígena largo para paredes da nave",
-      "tooltip.space_protocol.alien_ship_block": "Metal estranho de uma nave alienígena"
+      "tooltip.space_protocol.alien_ship_block": "Metal estranho de uma nave alienígena",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item.space_protocol.solder_ingot": "Solder Ingot",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
     }
   },
   "metadata": {
