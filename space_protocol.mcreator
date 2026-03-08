@@ -1,11 +1,66 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "AlienDestroyer",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "alien_destroyer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/dimension/alien_destroyer.json",
+          "src/main/java/net/mc/spaceprotocol/world/dimension/AlienDestroyerDimension.java",
+          "src/main/resources/data/space_protocol/dimension_type/alien_destroyer.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "AlienDestroyerBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_destroyer_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/worldgen/biome/alien_destroyer_biome.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "GenerateAlienDestoryer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "generate_alien_destoryer",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/GenerateAlienDestoryerProcedure.java"
+        ]
+      },
+      "path": "~/Dimensions/Procedures"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [],
+    "BLOCKS:mod:alien_destroyer_infinity_burn": [
+      "Blocks.COMMAND_BLOCK"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome"
+    }
   },
   "metadata": {
     "files": [
@@ -16,7 +71,21 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Dimensions",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "space_protocol",

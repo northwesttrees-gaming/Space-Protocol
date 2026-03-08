@@ -1,0 +1,17 @@
+{
+  "type": "space_protocol:alien_destroyer",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "space_protocol:alien_destroyer_biome",
+      "features": true,
+      "layers": [
+        {
+          "height": 0,
+          "block": "minecraft:air"
+        }
+      ],
+      "structure_overrides": []
+    }
+  }
+}

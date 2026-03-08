@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">minecraft_world_loaded</field><next><block type=\"world_switch_world\"><field name=\"dimension\">CUSTOM:AlienDestroyer</field><statement name=\"worldstatements\"><block type=\"place_schematic\"><field name=\"schematic\">platform</field><field name=\"rotation\">NONE</field><field name=\"mirror\">NONE</field><value name=\"x\"><block type=\"math_number\"><field name=\"NUM\">-2</field></block></value><value name=\"y\"><block type=\"math_number\"><field name=\"NUM\">63</field></block></value><value name=\"z\"><block type=\"math_number\"><field name=\"NUM\">-2</field></block></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}
