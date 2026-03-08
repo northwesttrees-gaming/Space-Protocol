@@ -9,10 +9,10 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "Blocks.DEEPSLATE"
     },
     "fluidBlock": {
-      "value": "Blocks.AIR"
+      "value": "Blocks.DEEPSLATE"
     },
     "seaLevel": 0,
     "generateOreVeins": false,
@@ -21,8 +21,8 @@
     "verticalNoiseSize": 1,
     "defaultEffects": "overworld",
     "useCustomEffects": true,
-    "hasClouds": true,
-    "cloudHeight": -64,
+    "hasClouds": false,
+    "cloudHeight": -2032,
     "skyType": "NONE",
     "airColor": {
       "value": -16777216,
@@ -31,7 +31,7 @@
     "sunHeightAffectsFog": false,
     "canRespawnHere": true,
     "hasFog": false,
-    "ambientLight": 0.2,
+    "ambientLight": 0.0,
     "doesWaterVaporize": false,
     "hasFixedTime": false,
     "fixedTimeValue": 0,

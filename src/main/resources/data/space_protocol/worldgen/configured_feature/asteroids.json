@@ -1,0 +1,9 @@
+{
+  "type": "space_protocol:structure_feature",
+  "config": {
+    "structure": "space_protocol:platform",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}
