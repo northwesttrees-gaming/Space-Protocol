@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "space_protocol:blocks/selvian",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "space_protocol:selvian"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "space_protocol:block/selvian",
+    "up": "space_protocol:block/selvian",
+    "north": "space_protocol:block/selvian",
+    "east": "space_protocol:block/selvian",
+    "south": "space_protocol:block/selvian",
+    "west": "space_protocol:block/selvian",
+    "particle": "space_protocol:block/selvian"
+  },
+  "render_type": "solid"
+}

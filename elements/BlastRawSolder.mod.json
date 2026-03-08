@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:RawSolder"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.5,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawSolder"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:SolderIngot"
+    },
+    "name": "blast_raw_solder",
+    "namespace": "mod"
+  }
+}

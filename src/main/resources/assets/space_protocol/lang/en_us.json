@@ -1,3 +1,8 @@
 {
-  "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome"
+  "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome",
+  "item.space_protocol.selvian": "Selvian",
+  "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+  "item.space_protocol.raw_solder": "Raw Solder",
+  "item_group.space_protocol.space_protocol": "Space Protocol",
+  "item.space_protocol.solder_ingot": "Solder Ingot"
 }

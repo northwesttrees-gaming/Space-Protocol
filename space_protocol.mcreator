@@ -46,6 +46,123 @@
         ]
       },
       "path": "~/Dimensions/Procedures"
+    },
+    {
+      "name": "Selvian",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selvian",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/selvian.json",
+          "src/main/java/net/mc/spaceprotocol/block/SelvianBlock.java",
+          "src/main/resources/assets/space_protocol/items/selvian.json",
+          "src/main/resources/assets/space_protocol/blockstates/selvian.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/selvian.json",
+          "src/main/resources/assets/space_protocol/models/item/selvian.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "SelvianSolderOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selvian_solder_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/selvian_solder_ore.json",
+          "src/main/resources/assets/space_protocol/items/selvian_solder_ore.json",
+          "src/main/resources/assets/space_protocol/blockstates/selvian_solder_ore.json",
+          "src/main/java/net/mc/spaceprotocol/block/SelvianSolderOreBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/selvian_solder_ore.json",
+          "src/main/resources/assets/space_protocol/models/block/selvian_solder_ore.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "RawSolder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_solder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/raw_solder.json",
+          "src/main/resources/assets/space_protocol/items/raw_solder.json",
+          "src/main/java/net/mc/spaceprotocol/item/RawSolderItem.java"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "SpaceProtocol",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_protocol",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SelvianSolderOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "selvian_solder_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/selvian_solder_ore.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "SolderIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solder_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/item/SolderIngotItem.java",
+          "src/main/resources/assets/space_protocol/items/solder_ingot.json",
+          "src/main/resources/assets/space_protocol/models/item/solder_ingot.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "SmeltRawSolder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_raw_solder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/recipe/smelt_raw_solder.json",
+          "src/main/resources/data/space_protocol/advancement/recipes/smelt_raw_solder.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "BlastRawSolder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blast_raw_solder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/advancement/recipes/blast_raw_solder.json",
+          "src/main/resources/data/space_protocol/recipe/blast_raw_solder.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
     }
   ],
   "variable_elements": [],
@@ -54,19 +171,37 @@
     "BLOCKS:minecraft:overworld_carver_replaceables": [],
     "BLOCKS:mod:alien_destroyer_infinity_burn": [
       "Blocks.COMMAND_BLOCK"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SelvianSolderOre",
+      "~CUSTOM:Selvian"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Selvian"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SelvianSolderOre"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome"
+      "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome",
+      "item.space_protocol.selvian": "Selvian",
+      "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
+      "item.space_protocol.raw_solder": "Raw Solder",
+      "item_group.space_protocol.space_protocol": "Space Protocol",
+      "item.space_protocol.solder_ingot": "Solder Ingot"
     }
   },
   "metadata": {
     "files": [
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModBlocks.java",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModItems.java",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModTabs.java",
+      "src/main/java/net/mc/spaceprotocol/SpaceProtocolMod.java",
       "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mc/spaceprotocol/SpaceProtocolMod.java"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {
@@ -83,6 +218,10 @@
       },
       {
         "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Rocks and Minerals",
         "children": []
       }
     ]

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "space_protocol:block/selvian_solder_ore",
+    "particle": "space_protocol:block/selvian_solder_ore"
+  },
+  "render_type": "solid"
+}
