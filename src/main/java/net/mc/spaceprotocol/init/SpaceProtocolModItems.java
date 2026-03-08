@@ -13,11 +13,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mc.spaceprotocol.item.SolderIngotItem;
 import net.mc.spaceprotocol.item.RawSolderItem;
-import net.mc.spaceprotocol.block.AlienShipVerticalPanelBlock;
-import net.mc.spaceprotocol.block.AlienShipTilesBlock;
-import net.mc.spaceprotocol.block.AlienShipHorizontalPanelBlock;
-import net.mc.spaceprotocol.block.AlienShipCeilingLightBlock;
-import net.mc.spaceprotocol.block.AlienShipBlockBlock;
+import net.mc.spaceprotocol.block.*;
 import net.mc.spaceprotocol.SpaceProtocolMod;
 
 import java.util.function.Function;
@@ -33,6 +29,7 @@ public class SpaceProtocolModItems {
 	public static final DeferredItem<Item> ALIEN_SHIP_VERTICAL_PANEL;
 	public static final DeferredItem<Item> ALIEN_SHIP_HORIZONTAL_PANEL;
 	public static final DeferredItem<Item> ALIEN_SHIP_CEILING_LIGHT;
+	public static final DeferredItem<Item> POLISHED_ALIEN_SHIP_BLOCK;
 	static {
 		SELVIAN_SOLDER_ORE = block(SpaceProtocolModBlocks.SELVIAN_SOLDER_ORE);
 		SELVIAN = block(SpaceProtocolModBlocks.SELVIAN);
@@ -43,6 +40,7 @@ public class SpaceProtocolModItems {
 		ALIEN_SHIP_VERTICAL_PANEL = register("alien_ship_vertical_panel", AlienShipVerticalPanelBlock.Item::new);
 		ALIEN_SHIP_HORIZONTAL_PANEL = register("alien_ship_horizontal_panel", AlienShipHorizontalPanelBlock.Item::new);
 		ALIEN_SHIP_CEILING_LIGHT = register("alien_ship_ceiling_light", AlienShipCeilingLightBlock.Item::new);
+		POLISHED_ALIEN_SHIP_BLOCK = register("polished_alien_ship_block", PolishedAlienShipBlockBlock.Item::new);
 	}
 
 	// Start of user code block custom items

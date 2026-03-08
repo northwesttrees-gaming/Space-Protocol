@@ -23,6 +23,7 @@ public class SpaceProtocolModBlocks {
 	public static final DeferredBlock<Block> ALIEN_SHIP_VERTICAL_PANEL;
 	public static final DeferredBlock<Block> ALIEN_SHIP_HORIZONTAL_PANEL;
 	public static final DeferredBlock<Block> ALIEN_SHIP_CEILING_LIGHT;
+	public static final DeferredBlock<Block> POLISHED_ALIEN_SHIP_BLOCK;
 	static {
 		SELVIAN_SOLDER_ORE = register("selvian_solder_ore", SelvianSolderOreBlock::new);
 		SELVIAN = register("selvian", SelvianBlock::new);
@@ -31,6 +32,7 @@ public class SpaceProtocolModBlocks {
 		ALIEN_SHIP_VERTICAL_PANEL = register("alien_ship_vertical_panel", AlienShipVerticalPanelBlock::new);
 		ALIEN_SHIP_HORIZONTAL_PANEL = register("alien_ship_horizontal_panel", AlienShipHorizontalPanelBlock::new);
 		ALIEN_SHIP_CEILING_LIGHT = register("alien_ship_ceiling_light", AlienShipCeilingLightBlock::new);
+		POLISHED_ALIEN_SHIP_BLOCK = register("polished_alien_ship_block", PolishedAlienShipBlockBlock::new);
 	}
 
 	// Start of user code block custom blocks

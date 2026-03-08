@@ -376,6 +376,24 @@
           "src/main/java/net/mc/spaceprotocol/procedures/QuickTPProcedure.java"
         ]
       }
+    },
+    {
+      "name": "PolishedAlienShipBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_alien_ship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/polished_alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/models/item/polished_alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/models/block/polished_alien_ship_block.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/polished_alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/blockstates/polished_alien_ship_block.json",
+          "src/main/java/net/mc/spaceprotocol/block/PolishedAlienShipBlockBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
     }
   ],
   "variable_elements": [],
@@ -415,7 +433,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "ar_sa": {
       "biome.space_protocol.alien_destroyer_biome": "منطقة أحيائية لمُدمِّر فضائي",
@@ -434,7 +453,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "es_es": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma del destructor alienígena",
@@ -453,7 +473,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "fr_fr": {
       "biome.space_protocol.alien_destroyer_biome": "Biome du destructeur alien",
@@ -472,7 +493,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "nl_nl": {
       "biome.space_protocol.alien_destroyer_biome": "Alien vernietiger-bioom",
@@ -491,7 +513,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "de_de": {
       "biome.space_protocol.alien_destroyer_biome": "Alien-Zerstörer-Biom",
@@ -510,7 +533,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     },
     "pt_pt": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma do destruidor alienígena",
@@ -529,7 +553,8 @@
       "item.space_protocol.raw_solder": "Raw Solder",
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
-      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
     }
   },
   "metadata": {
