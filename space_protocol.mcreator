@@ -65,19 +65,6 @@
       "path": "~/Rocks and Minerals"
     },
     {
-      "name": "SelvianSolderOreLoot",
-      "type": "loottable",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "selvian_solder_ore_loot",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/space_protocol/loot_table/blocks/selvian_solder_ore.json"
-        ]
-      },
-      "path": "~/Rocks and Minerals"
-    },
-    {
       "name": "SpaceProtocol",
       "type": "tab",
       "compiles": true,
@@ -393,13 +380,169 @@
           "src/main/java/net/mc/spaceprotocol/block/PolishedAlienShipBlockBlock.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Polished"
+    },
+    {
+      "name": "SevlianSolderOreLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sevlian_solder_ore_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/selvian_solder_ore.json"
+        ]
+      },
+      "path": "~/Rocks and Minerals"
+    },
+    {
+      "name": "PolishedAlienShipBlockTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_alien_ship_block_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/PolishedAlienShipBlockTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Polished"
+    },
+    {
+      "name": "AlienShipGrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_grate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipGrateBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_grate.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_grate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_grate.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_grate.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Grate"
+    },
+    {
+      "name": "AlienShipBars",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_bars",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipBarsBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_bars.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_bars.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_bars.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_bars.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Bars"
+    },
+    {
+      "name": "AlienShipWallLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_wall_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_wall_light.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_wall_light.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipWallLightBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_light.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_wall_light.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_wall_light.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Wall Light"
+    },
+    {
+      "name": "AlienShipDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_top_left_open.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_bottom_right.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipDoorBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_door.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_bottom_left.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_door.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_top_right.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_door.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_top_left.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_bottom_left_open.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_door.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_top_right_open.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_door_bottom_right_open.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Door"
+    },
+    {
+      "name": "AlienShipDoorTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_door_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipDoorTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Door"
+    },
+    {
+      "name": "AlienShipTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_trapdoor.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_trapdoor.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_trapdoor.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_trapdoor_top.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_trapdoor.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTrapdoorBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_trapdoor_open.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_trapdoor.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Trapdoor"
+    },
+    {
+      "name": "AlienShipTrapdoorTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_trapdoor_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTrapdoorTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Trapdoor"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:minecraft:overworld_carver_replaceables": [],
     "BLOCKS:mod:alien_destroyer_infinity_burn": [
       "Blocks.COMMAND_BLOCK"
     ],
@@ -412,6 +555,12 @@
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Selvian"
+    ],
+    "BLOCKS:minecraft:doors": [
+      "~CUSTOM:AlienShipDoor"
+    ],
+    "BLOCKS:minecraft:trapdoors": [
+      "~CUSTOM:AlienShipTrapdoor"
     ]
   },
   "tab_element_order": {},
@@ -434,7 +583,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Polished Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "Sleek block from alien flooring",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Bars",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Wall Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "Cold glow of alien technology",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Door",
+      "tooltip.space_protocol.alien_ship_door": "Regular doors for the ship",
+      "tooltip.space_protocol.alien_ship_trapdoor": "Regular trapdoors for the ship",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Trapdoor"
     },
     "ar_sa": {
       "biome.space_protocol.alien_destroyer_biome": "منطقة أحيائية لمُدمِّر فضائي",
@@ -454,7 +613,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     },
     "es_es": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma del destructor alienígena",
@@ -474,7 +643,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     },
     "fr_fr": {
       "biome.space_protocol.alien_destroyer_biome": "Biome du destructeur alien",
@@ -494,7 +673,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     },
     "nl_nl": {
       "biome.space_protocol.alien_destroyer_biome": "Alien vernietiger-bioom",
@@ -514,7 +703,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     },
     "de_de": {
       "biome.space_protocol.alien_destroyer_biome": "Alien-Zerstörer-Biom",
@@ -534,7 +733,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     },
     "pt_pt": {
       "biome.space_protocol.alien_destroyer_biome": "Bioma do destruidor alienígena",
@@ -554,7 +763,17 @@
       "item.space_protocol.solder_ingot": "Solder Ingot",
       "item_group.space_protocol.space_protocol": "Space Protocol",
       "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
-      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block"
+      "item.space_protocol.polished_alien_ship_block": "Alien Ship Block",
+      "tooltip.space_protocol.polished_alien_ship_block": "",
+      "item.space_protocol.alien_ship_grate": "Alien Ship Block",
+      "item.space_protocol.alien_ship_bars": "Alien Ship Grate",
+      "item.space_protocol.alien_ship_wall_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_wall_light": "",
+      "tooltip.space_protocol.alien_ship_grate": "",
+      "item.space_protocol.alien_ship_door": "Alien Ship Block",
+      "tooltip.space_protocol.alien_ship_door": "",
+      "tooltip.space_protocol.alien_ship_trapdoor": "",
+      "item.space_protocol.alien_ship_trapdoor": "Alien Ship Door"
     }
   },
   "metadata": {
@@ -609,6 +828,30 @@
               },
               {
                 "name": "Ceiling Light",
+                "children": []
+              },
+              {
+                "name": "Polished",
+                "children": []
+              },
+              {
+                "name": "Grate",
+                "children": []
+              },
+              {
+                "name": "Bars",
+                "children": []
+              },
+              {
+                "name": "Wall Light",
+                "children": []
+              },
+              {
+                "name": "Door",
+                "children": []
+              },
+              {
+                "name": "Trapdoor",
                 "children": []
               }
             ]

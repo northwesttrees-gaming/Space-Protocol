@@ -1,5 +1,7 @@
 package net.mc.spaceprotocol.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -19,15 +21,15 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
-import net.mc.spaceprotocol.procedures.PolishedAlienShipBlockTooltipProcedure;
+import net.mc.spaceprotocol.procedures.AlienShipCeilingLightTooltipProcedure;
 import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
 import net.mc.spaceprotocol.SpaceProtocolMod;
 
 import java.util.function.Consumer;
 
-public class PolishedAlienShipBlockBlock extends Block {
-	public PolishedAlienShipBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.DEEPSLATE).sound(SoundType.METAL).strength(-1, 3600000).pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.IRON_XYLOPHONE));
+public class AlienShipWallLightBlock extends Block {
+	public AlienShipWallLightBlock(BlockBehaviour.Properties properties) {
+		super(properties.mapColor(MapColor.DEEPSLATE).sound(SoundType.METAL).strength(-1, 3600000).lightLevel(s -> 8).pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.IRON_XYLOPHONE));
 	}
 
 	@Override
@@ -42,14 +44,14 @@ public class PolishedAlienShipBlockBlock extends Block {
 
 	public static class Item extends BlockItem {
 		public Item(Item.Properties properties) {
-			super(SpaceProtocolModBlocks.POLISHED_ALIEN_SHIP_BLOCK.get(), properties);
+			super(SpaceProtocolModBlocks.ALIEN_SHIP_WALL_LIGHT.get(), properties);
 		}
 
 		@Override
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
 			Entity entity = itemstack.getEntityRepresentation() != null ? itemstack.getEntityRepresentation() : SpaceProtocolMod.clientPlayer();
-			String hoverText = PolishedAlienShipBlockTooltipProcedure.execute();
+			String hoverText = AlienShipCeilingLightTooltipProcedure.execute();
 			if (hoverText != null) {
 				for (String line : hoverText.split("\n")) {
 					componentConsumer.accept(Component.literal(line));

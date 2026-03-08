@@ -4,10 +4,11 @@ import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.component.TooltipDisplay;
 import net.minecraft.world.item.TooltipFlag;
@@ -19,20 +20,16 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
-import net.mc.spaceprotocol.procedures.PolishedAlienShipBlockTooltipProcedure;
+import net.mc.spaceprotocol.procedures.AlienShipTrapdoorTooltipProcedure;
 import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
 import net.mc.spaceprotocol.SpaceProtocolMod;
 
 import java.util.function.Consumer;
 
-public class PolishedAlienShipBlockBlock extends Block {
-	public PolishedAlienShipBlockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.DEEPSLATE).sound(SoundType.METAL).strength(-1, 3600000).pushReaction(PushReaction.BLOCK).instrument(NoteBlockInstrument.IRON_XYLOPHONE));
-	}
-
-	@Override
-	public int getLightBlock(BlockState state) {
-		return 15;
+public class AlienShipTrapdoorBlock extends TrapDoorBlock {
+	public AlienShipTrapdoorBlock(BlockBehaviour.Properties properties) {
+		super(BlockSetType.IRON,
+				properties.mapColor(MapColor.DEEPSLATE).sound(SoundType.METAL).strength(-1, 3600000).noOcclusion().pushReaction(PushReaction.BLOCK).isRedstoneConductor((bs, br, bp) -> false).instrument(NoteBlockInstrument.IRON_XYLOPHONE));
 	}
 
 	@Override
@@ -42,14 +39,14 @@ public class PolishedAlienShipBlockBlock extends Block {
 
 	public static class Item extends BlockItem {
 		public Item(Item.Properties properties) {
-			super(SpaceProtocolModBlocks.POLISHED_ALIEN_SHIP_BLOCK.get(), properties);
+			super(SpaceProtocolModBlocks.ALIEN_SHIP_TRAPDOOR.get(), properties);
 		}
 
 		@Override
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
 			Entity entity = itemstack.getEntityRepresentation() != null ? itemstack.getEntityRepresentation() : SpaceProtocolMod.clientPlayer();
-			String hoverText = PolishedAlienShipBlockTooltipProcedure.execute();
+			String hoverText = AlienShipTrapdoorTooltipProcedure.execute();
 			if (hoverText != null) {
 				for (String line : hoverText.split("\n")) {
 					componentConsumer.accept(Component.literal(line));

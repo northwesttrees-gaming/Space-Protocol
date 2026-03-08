@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "space_protocol:block/alien_ship_bars",
+    "up": "space_protocol:block/alien_ship_bars",
+    "north": "space_protocol:block/alien_ship_bars",
+    "east": "space_protocol:block/alien_ship_bars",
+    "south": "space_protocol:block/alien_ship_bars",
+    "west": "space_protocol:block/alien_ship_bars",
+    "particle": "space_protocol:block/alien_ship_bars"
+  },
+  "render_type": "cutout"
+}

@@ -17,8 +17,8 @@
               "value": "CUSTOM:RawSolder"
             },
             "weight": 1,
-            "minCount": 0,
-            "maxCount": 4,
+            "minCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": true,
@@ -37,7 +37,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SelvianSolderOre"
+              "value": "CUSTOM:Selvian"
             },
             "weight": 1,
             "minCount": 1,

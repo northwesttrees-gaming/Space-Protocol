@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "space_protocol:block/alien_ship_block",
+    "up": "space_protocol:block/alien_ship_block",
+    "north": "space_protocol:block/alien_ship_wall_light",
+    "east": "space_protocol:block/alien_ship_wall_light",
+    "south": "space_protocol:block/alien_ship_wall_light",
+    "west": "space_protocol:block/alien_ship_wall_light",
+    "particle": "space_protocol:block/alien_ship_block"
+  },
+  "render_type": "solid"
+}

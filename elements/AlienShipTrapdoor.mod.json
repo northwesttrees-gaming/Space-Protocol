@@ -2,8 +2,8 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "polished_alien_ship_block",
-    "textureTop": "alien_ship_block",
+    "texture": "alien_ship_trapdoor",
+    "textureTop": "alien_ship_door_top",
     "textureLeft": "alien_ship_block",
     "textureFront": "alien_ship_block",
     "textureRight": "alien_ship_block",
@@ -17,15 +17,16 @@
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
-    "blockSetType": "OAK",
+    "blockBase": "TrapDoor",
+    "blockSetType": "IRON",
     "pottedPlant": {
       "value": ""
     },
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": false,
+    "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -39,10 +40,10 @@
       }
     ],
     "customProperties": [],
-    "name": "Polished Alien Ship Block",
+    "name": "Alien Ship Trapdoor",
     "specialInformation": {
       "fixedValue": [],
-      "name": "PolishedAlienShipBlockTooltip"
+      "name": "AlienShipTrapdoorTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

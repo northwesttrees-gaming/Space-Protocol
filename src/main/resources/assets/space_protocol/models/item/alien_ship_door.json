@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "space_protocol:item/alien_ship_door"
+  },
+  "render_type": "translucent"
+}

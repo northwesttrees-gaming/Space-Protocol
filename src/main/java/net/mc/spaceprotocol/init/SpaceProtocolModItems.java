@@ -30,6 +30,11 @@ public class SpaceProtocolModItems {
 	public static final DeferredItem<Item> ALIEN_SHIP_HORIZONTAL_PANEL;
 	public static final DeferredItem<Item> ALIEN_SHIP_CEILING_LIGHT;
 	public static final DeferredItem<Item> POLISHED_ALIEN_SHIP_BLOCK;
+	public static final DeferredItem<Item> ALIEN_SHIP_GRATE;
+	public static final DeferredItem<Item> ALIEN_SHIP_BARS;
+	public static final DeferredItem<Item> ALIEN_SHIP_WALL_LIGHT;
+	public static final DeferredItem<Item> ALIEN_SHIP_DOOR;
+	public static final DeferredItem<Item> ALIEN_SHIP_TRAPDOOR;
 	static {
 		SELVIAN_SOLDER_ORE = block(SpaceProtocolModBlocks.SELVIAN_SOLDER_ORE);
 		SELVIAN = block(SpaceProtocolModBlocks.SELVIAN);
@@ -41,6 +46,11 @@ public class SpaceProtocolModItems {
 		ALIEN_SHIP_HORIZONTAL_PANEL = register("alien_ship_horizontal_panel", AlienShipHorizontalPanelBlock.Item::new);
 		ALIEN_SHIP_CEILING_LIGHT = register("alien_ship_ceiling_light", AlienShipCeilingLightBlock.Item::new);
 		POLISHED_ALIEN_SHIP_BLOCK = register("polished_alien_ship_block", PolishedAlienShipBlockBlock.Item::new);
+		ALIEN_SHIP_GRATE = register("alien_ship_grate", AlienShipGrateBlock.Item::new);
+		ALIEN_SHIP_BARS = register("alien_ship_bars", AlienShipBarsBlock.Item::new);
+		ALIEN_SHIP_WALL_LIGHT = register("alien_ship_wall_light", AlienShipWallLightBlock.Item::new);
+		ALIEN_SHIP_DOOR = register("alien_ship_door", AlienShipDoorBlock.Item::new);
+		ALIEN_SHIP_TRAPDOOR = register("alien_ship_trapdoor", AlienShipTrapdoorBlock.Item::new);
 	}
 
 	// Start of user code block custom items

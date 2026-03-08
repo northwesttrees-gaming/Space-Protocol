@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_top",
+  "textures": {
+    "texture": "space_protocol:block/alien_ship_trapdoor",
+    "particle": "space_protocol:block/alien_ship_trapdoor"
+  },
+  "render_type": "cutout"
+}

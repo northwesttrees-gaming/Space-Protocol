@@ -32,8 +32,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 0,
-                "max": 4
+                "min": 1,
+                "max": 3
               }
             },
             {
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "space_protocol:selvian_solder_ore",
+          "name": "space_protocol:selvian",
           "weight": 1,
           "conditions": [
             {

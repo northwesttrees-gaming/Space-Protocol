@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "polished_alien_ship_block",
+    "texture": "alien_ship_block",
     "textureTop": "alien_ship_block",
-    "textureLeft": "alien_ship_block",
-    "textureFront": "alien_ship_block",
-    "textureRight": "alien_ship_block",
-    "textureBack": "alien_ship_block",
-    "renderType": 11,
-    "customModelName": "Single texture",
+    "textureLeft": "alien_ship_wall_light",
+    "textureFront": "alien_ship_wall_light",
+    "textureRight": "alien_ship_wall_light",
+    "textureBack": "alien_ship_wall_light",
+    "renderType": 10,
+    "customModelName": "Normal",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -39,10 +39,10 @@
       }
     ],
     "customProperties": [],
-    "name": "Polished Alien Ship Block",
+    "name": "Alien Ship Wall Light",
     "specialInformation": {
       "fixedValue": [],
-      "name": "PolishedAlienShipBlockTooltip"
+      "name": "AlienShipCeilingLightTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,
@@ -115,7 +115,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": 8,
     "unbreakable": true,
     "vanillaToolTier": "NONE",
     "isBonemealable": false,

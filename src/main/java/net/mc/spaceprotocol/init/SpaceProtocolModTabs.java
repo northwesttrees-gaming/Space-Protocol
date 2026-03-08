@@ -30,5 +30,10 @@ public class SpaceProtocolModTabs {
 				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_HORIZONTAL_PANEL.get().asItem());
 				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_CEILING_LIGHT.get().asItem());
 				tabData.accept(SpaceProtocolModBlocks.POLISHED_ALIEN_SHIP_BLOCK.get().asItem());
+				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_GRATE.get().asItem());
+				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_BARS.get().asItem());
+				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_WALL_LIGHT.get().asItem());
+				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_DOOR.get().asItem());
+				tabData.accept(SpaceProtocolModBlocks.ALIEN_SHIP_TRAPDOOR.get().asItem());
 			}).withTabsBefore(SPACE_PROTOCOL.getId()).build());
 }
