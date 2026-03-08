@@ -11,7 +11,7 @@
       "conditions": {
         "items": [
           {
-            "items": "space_protocol:deleted_mod_element"
+            "items": "space_protocol:raw_solder"
           }
         ]
       },

@@ -3,8 +3,8 @@
   "category": "misc",
   "experience": 1.5,
   "cookingtime": 200,
-  "ingredient": "space_protocol:deleted_mod_element",
+  "ingredient": "space_protocol:raw_solder",
   "result": {
-    "id": "space_protocol:deleted_mod_element"
+    "id": "space_protocol:solder_ingot"
   }
 }
