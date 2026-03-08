@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "space_protocol:alien_destroyer_biome",
+  "features": "space_protocol:asteroids",
+  "step": "surface_structures"
+}

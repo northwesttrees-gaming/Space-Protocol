@@ -1,8 +1,8 @@
 {
   "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome",
-  "item.space_protocol.selvian": "Selvian",
-  "item.space_protocol.selvian_solder_ore": "Selvian Solder Ore",
-  "item.space_protocol.raw_solder": "Raw Solder",
-  "item_group.space_protocol.space_protocol": "Space Protocol",
-  "item.space_protocol.solder_ingot": "Solder Ingot"
+  "tooltip.space_protocol.alien_ship_block": "Strange metal from alien craft",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Tall alien panel for ship walls",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Wide alien panel for ship walls",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Cold glow of alien technology",
+  "tooltip.space_protocol.alien_ship_tiles": "Sleek tiles from alien flooring"
 }

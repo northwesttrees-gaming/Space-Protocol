@@ -20,6 +20,7 @@ import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mc.spaceprotocol.world.features.StructureFeature;
 import net.mc.spaceprotocol.init.SpaceProtocolModTabs;
 import net.mc.spaceprotocol.init.SpaceProtocolModItems;
 import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
@@ -50,6 +51,7 @@ public class SpaceProtocolMod {
 		SpaceProtocolModBlocks.REGISTRY.register(modEventBus);
 		SpaceProtocolModItems.REGISTRY.register(modEventBus);
 		SpaceProtocolModTabs.REGISTRY.register(modEventBus);
+		StructureFeature.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}

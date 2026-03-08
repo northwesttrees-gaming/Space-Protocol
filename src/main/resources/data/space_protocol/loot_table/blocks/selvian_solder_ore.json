@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "space_protocol:raw_solder",
+          "name": "space_protocol:deleted_mod_element",
           "weight": 1,
           "conditions": [
             {

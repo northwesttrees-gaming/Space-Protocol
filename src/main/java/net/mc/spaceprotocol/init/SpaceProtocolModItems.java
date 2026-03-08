@@ -13,21 +13,36 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mc.spaceprotocol.item.SolderIngotItem;
 import net.mc.spaceprotocol.item.RawSolderItem;
+import net.mc.spaceprotocol.block.AlienShipVerticalPanelBlock;
+import net.mc.spaceprotocol.block.AlienShipTilesBlock;
+import net.mc.spaceprotocol.block.AlienShipHorizontalPanelBlock;
+import net.mc.spaceprotocol.block.AlienShipCeilingLightBlock;
+import net.mc.spaceprotocol.block.AlienShipBlockBlock;
 import net.mc.spaceprotocol.SpaceProtocolMod;
 
 import java.util.function.Function;
 
 public class SpaceProtocolModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(SpaceProtocolMod.MODID);
-	public static final DeferredItem<Item> SELVIAN;
 	public static final DeferredItem<Item> SELVIAN_SOLDER_ORE;
+	public static final DeferredItem<Item> SELVIAN;
 	public static final DeferredItem<Item> RAW_SOLDER;
 	public static final DeferredItem<Item> SOLDER_INGOT;
+	public static final DeferredItem<Item> ALIEN_SHIP_BLOCK;
+	public static final DeferredItem<Item> ALIEN_SHIP_TILES;
+	public static final DeferredItem<Item> ALIEN_SHIP_VERTICAL_PANEL;
+	public static final DeferredItem<Item> ALIEN_SHIP_HORIZONTAL_PANEL;
+	public static final DeferredItem<Item> ALIEN_SHIP_CEILING_LIGHT;
 	static {
-		SELVIAN = block(SpaceProtocolModBlocks.SELVIAN);
 		SELVIAN_SOLDER_ORE = block(SpaceProtocolModBlocks.SELVIAN_SOLDER_ORE);
+		SELVIAN = block(SpaceProtocolModBlocks.SELVIAN);
 		RAW_SOLDER = register("raw_solder", RawSolderItem::new);
 		SOLDER_INGOT = register("solder_ingot", SolderIngotItem::new);
+		ALIEN_SHIP_BLOCK = register("alien_ship_block", AlienShipBlockBlock.Item::new);
+		ALIEN_SHIP_TILES = register("alien_ship_tiles", AlienShipTilesBlock.Item::new);
+		ALIEN_SHIP_VERTICAL_PANEL = register("alien_ship_vertical_panel", AlienShipVerticalPanelBlock.Item::new);
+		ALIEN_SHIP_HORIZONTAL_PANEL = register("alien_ship_horizontal_panel", AlienShipHorizontalPanelBlock.Item::new);
+		ALIEN_SHIP_CEILING_LIGHT = register("alien_ship_ceiling_light", AlienShipCeilingLightBlock.Item::new);
 	}
 
 	// Start of user code block custom items
