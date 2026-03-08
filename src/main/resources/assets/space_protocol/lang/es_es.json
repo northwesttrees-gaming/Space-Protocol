@@ -1,0 +1,14 @@
+{
+  "biome.space_protocol.alien_destroyer_biome": "Bioma del destructor alienígena",
+  "item.space_protocol.alien_ship_block": "Bloque de nave alienígena",
+  "item.space_protocol.alien_ship_horizontal_panel": "Panel horizontal de nave alienígena",
+  "item.space_protocol.alien_ship_vertical_panel": "Panel vertical de nave alienígena",
+  "item.space_protocol.alien_ship_tiles": "Baldosas de nave alienígena",
+  "item.space_protocol.alien_ship_ceiling_light": "Luz de techo de nave alienígena",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Brillo frío de tecnología alienígena",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Panel alienígena alto para paredes de la nave",
+  "tooltip.space_protocol.alien_ship_tiles": "Baldosas elegantes de suelo alienígena",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Panel alienígena ancho para paredes de la nave",
+  "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena",
+  "item_group.space_protocol.space_protocol_blocks": "Bloques Space Protocol"
+}

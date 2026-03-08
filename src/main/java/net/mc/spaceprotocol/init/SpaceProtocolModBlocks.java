@@ -1,0 +1,41 @@
+/*
+ *    MCreator note: This file will be REGENERATED on each build.
+ */
+package net.mc.spaceprotocol.init;
+
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredBlock;
+
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.Block;
+
+import net.mc.spaceprotocol.block.AlienShipVerticalPanelBlock;
+import net.mc.spaceprotocol.block.AlienShipTilesBlock;
+import net.mc.spaceprotocol.block.AlienShipHorizontalPanelBlock;
+import net.mc.spaceprotocol.block.AlienShipCeilingLightBlock;
+import net.mc.spaceprotocol.block.AlienShipBlockBlock;
+import net.mc.spaceprotocol.SpaceProtocolMod;
+
+import java.util.function.Function;
+
+public class SpaceProtocolModBlocks {
+	public static final DeferredRegister.Blocks REGISTRY = DeferredRegister.createBlocks(SpaceProtocolMod.MODID);
+	public static final DeferredBlock<Block> ALIEN_SHIP_BLOCK;
+	public static final DeferredBlock<Block> ALIEN_SHIP_HORIZONTAL_PANEL;
+	public static final DeferredBlock<Block> ALIEN_SHIP_VERTICAL_PANEL;
+	public static final DeferredBlock<Block> ALIEN_SHIP_TILES;
+	public static final DeferredBlock<Block> ALIEN_SHIP_CEILING_LIGHT;
+	static {
+		ALIEN_SHIP_BLOCK = register("alien_ship_block", AlienShipBlockBlock::new);
+		ALIEN_SHIP_HORIZONTAL_PANEL = register("alien_ship_horizontal_panel", AlienShipHorizontalPanelBlock::new);
+		ALIEN_SHIP_VERTICAL_PANEL = register("alien_ship_vertical_panel", AlienShipVerticalPanelBlock::new);
+		ALIEN_SHIP_TILES = register("alien_ship_tiles", AlienShipTilesBlock::new);
+		ALIEN_SHIP_CEILING_LIGHT = register("alien_ship_ceiling_light", AlienShipCeilingLightBlock::new);
+	}
+
+	// Start of user code block custom blocks
+	// End of user code block custom blocks
+	private static <B extends Block> DeferredBlock<B> register(String name, Function<BlockBehaviour.Properties, ? extends B> supplier) {
+		return REGISTRY.registerBlock(name, supplier);
+	}
+}

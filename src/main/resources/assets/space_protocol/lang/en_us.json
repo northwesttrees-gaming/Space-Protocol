@@ -1,3 +1,14 @@
 {
-  "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome"
+  "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome",
+  "item.space_protocol.alien_ship_block": "Alien Ship Block",
+  "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+  "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+  "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+  "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Cold glow of alien technology",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Tall alien panel for ship walls",
+  "tooltip.space_protocol.alien_ship_tiles": "Sleek tiles from alien flooring",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Wide alien panel for ship walls",
+  "tooltip.space_protocol.alien_ship_block": "Strange metal from alien craft",
+  "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
 }

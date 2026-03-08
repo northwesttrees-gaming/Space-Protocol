@@ -1,0 +1,14 @@
+{
+  "biome.space_protocol.alien_destroyer_biome": "Biome du destructeur alien",
+  "item.space_protocol.alien_ship_block": "Bloc de vaisseau alien",
+  "item.space_protocol.alien_ship_horizontal_panel": "Panneau horizontal de vaisseau alien",
+  "item.space_protocol.alien_ship_vertical_panel": "Panneau vertical de vaisseau alien",
+  "item.space_protocol.alien_ship_tiles": "Dalles de vaisseau alien",
+  "item.space_protocol.alien_ship_ceiling_light": "Lumière de plafond de vaisseau alien",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Lueur froide de la technologie alien",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Grand panneau alien pour les murs du vaisseau",
+  "tooltip.space_protocol.alien_ship_tiles": "Dalles élégantes d’un sol alien",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Large panneau alien pour les murs du vaisseau",
+  "tooltip.space_protocol.alien_ship_block": "Métal étrange provenant d’un vaisseau alien",
+  "item_group.space_protocol.space_protocol_blocks": "Blocs Space Protocol"
+}

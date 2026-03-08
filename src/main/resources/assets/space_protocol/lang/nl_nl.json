@@ -1,0 +1,14 @@
+{
+  "biome.space_protocol.alien_destroyer_biome": "Alien vernietiger-bioom",
+  "item.space_protocol.alien_ship_block": "Alien schipblok",
+  "item.space_protocol.alien_ship_horizontal_panel": "Horizontaal paneel van een alien schip",
+  "item.space_protocol.alien_ship_vertical_panel": "Verticaal paneel van een alien schip",
+  "item.space_protocol.alien_ship_tiles": "Alien schiptegels",
+  "item.space_protocol.alien_ship_ceiling_light": "Alien schip plafondlamp",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Koude gloed van buitenaardse technologie",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Lang alienpaneel voor scheepsmuren",
+  "tooltip.space_protocol.alien_ship_tiles": "Strakke tegels van alienvloer",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Breed alienpaneel voor scheepsmuren",
+  "tooltip.space_protocol.alien_ship_block": "Vreemd metaal van een alienscheep",
+  "item_group.space_protocol.space_protocol_blocks": "Space Protocol-blokken"
+}

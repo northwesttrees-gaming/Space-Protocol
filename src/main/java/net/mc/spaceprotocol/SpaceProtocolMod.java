@@ -21,6 +21,9 @@ import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mc.spaceprotocol.world.features.StructureFeature;
+import net.mc.spaceprotocol.init.SpaceProtocolModTabs;
+import net.mc.spaceprotocol.init.SpaceProtocolModItems;
+import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -45,6 +48,9 @@ public class SpaceProtocolMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		SpaceProtocolModBlocks.REGISTRY.register(modEventBus);
+		SpaceProtocolModItems.REGISTRY.register(modEventBus);
+		SpaceProtocolModTabs.REGISTRY.register(modEventBus);
 		StructureFeature.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,0 +1,14 @@
+{
+  "biome.space_protocol.alien_destroyer_biome": "Alien-Zerstörer-Biom",
+  "item.space_protocol.alien_ship_block": "Alien-Schiffblock",
+  "item.space_protocol.alien_ship_horizontal_panel": "Horizontales Alien-Schiffpanel",
+  "item.space_protocol.alien_ship_vertical_panel": "Vertikales Alien-Schiffpanel",
+  "item.space_protocol.alien_ship_tiles": "Alien-Schiffkacheln",
+  "item.space_protocol.alien_ship_ceiling_light": "Alien-Schiff-Deckenlicht",
+  "tooltip.space_protocol.alien_ship_ceiling_light": "Kalter Schein außerirdischer Technologie",
+  "tooltip.space_protocol.alien_ship_vertical_panel": "Hohes Alien-Panel für Schiffswände",
+  "tooltip.space_protocol.alien_ship_tiles": "Glänzende Fliesen eines Alienbodens",
+  "tooltip.space_protocol.alien_ship_horizontal_panel": "Breites Alien-Panel für Schiffswände",
+  "tooltip.space_protocol.alien_ship_block": "Seltsames Metall aus einem Alien-Raumschiff",
+  "item_group.space_protocol.space_protocol_blocks": "Space-Protocol-Blöcke"
+}

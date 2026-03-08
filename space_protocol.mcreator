@@ -84,6 +84,182 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "AlienShipBlockTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_block_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipBlockTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_block.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipBlockBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_block.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_block.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipHorizontalPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalPanelBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_panel.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_panel.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_panel.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_panel.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_panel.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal Panel"
+    },
+    {
+      "name": "AlienShipHorizontalPanelTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_panel_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalPanelTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal Panel"
+    },
+    {
+      "name": "AlienShipVerticalPanel",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_panel.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalPanelBlock.java",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_panel.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_panel.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_panel.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_panel.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical Panel"
+    },
+    {
+      "name": "AlienShipVerticalPanelTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_panel_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalPanelTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical Panel"
+    },
+    {
+      "name": "AlienShipTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTilesBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_tiles.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tiles.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tiles.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tiles.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tiles.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipTilesTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tiles_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTilesTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipCeilingLight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_ceiling_light",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_ceiling_light.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_ceiling_light.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipCeilingLightBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_ceiling_light.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_ceiling_light.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_ceiling_light.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Ceiling Light"
+    },
+    {
+      "name": "AlienShipCeilingLightTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_ceiling_light_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipCeilingLightTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Ceiling Light"
+    },
+    {
+      "name": "SpaceProtocolBlocks",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "space_protocol_blocks",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative"
     }
   ],
   "variable_elements": [],
@@ -97,16 +273,122 @@
       "~Blocks.DEEPSLATE"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:SpaceProtocolBlocks": [
+      "AlienShipBlock",
+      "AlienShipCeilingLight",
+      "AlienShipHorizontalPanel",
+      "AlienShipVerticalPanel",
+      "AlienShipTiles"
+    ]
+  },
   "language_map": {
     "en_us": {
-      "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome"
+      "biome.space_protocol.alien_destroyer_biome": "Alien Destroyer Biome",
+      "item.space_protocol.alien_ship_block": "Alien Ship Block",
+      "item.space_protocol.alien_ship_horizontal_panel": "Alien Ship Horizontal Panel",
+      "item.space_protocol.alien_ship_vertical_panel": "Alien Ship Vertical Panel",
+      "item.space_protocol.alien_ship_tiles": "Alien Ship Tiles",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien Ship Ceiling Light",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Cold glow of alien technology",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Tall alien panel for ship walls",
+      "tooltip.space_protocol.alien_ship_tiles": "Sleek tiles from alien flooring",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Wide alien panel for ship walls",
+      "tooltip.space_protocol.alien_ship_block": "Strange metal from alien craft",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks"
+    },
+    "ar_sa": {
+      "biome.space_protocol.alien_destroyer_biome": "منطقة أحيائية لمُدمِّر فضائي",
+      "item.space_protocol.alien_ship_block": "كتلة سفينة فضائية",
+      "item.space_protocol.alien_ship_horizontal_panel": "لوحة أفقية لسفينة فضائية",
+      "item.space_protocol.alien_ship_vertical_panel": "لوحة عمودية لسفينة فضائية",
+      "item.space_protocol.alien_ship_tiles": "بلاطات سفينة فضائية",
+      "item.space_protocol.alien_ship_ceiling_light": "ضوء سقف سفينة فضائية",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "توهج بارد لتقنية فضائية",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "لوحة فضائية طويلة لجدران السفينة",
+      "tooltip.space_protocol.alien_ship_tiles": "بلاطات أنيقة من أرضية فضائية",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "لوحة فضائية عريضة لجدران السفينة",
+      "tooltip.space_protocol.alien_ship_block": "معدن غريب من مركبة فضائية",
+      "item_group.space_protocol.space_protocol_blocks": "كتل بروتوكول الفضاء"
+    },
+    "nl_nl": {
+      "biome.space_protocol.alien_destroyer_biome": "Alien vernietiger-bioom",
+      "item.space_protocol.alien_ship_block": "Alien schipblok",
+      "item.space_protocol.alien_ship_horizontal_panel": "Horizontaal paneel van een alien schip",
+      "item.space_protocol.alien_ship_vertical_panel": "Verticaal paneel van een alien schip",
+      "item.space_protocol.alien_ship_tiles": "Alien schiptegels",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien schip plafondlamp",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Koude gloed van buitenaardse technologie",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Lang alienpaneel voor scheepsmuren",
+      "tooltip.space_protocol.alien_ship_tiles": "Strakke tegels van alienvloer",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Breed alienpaneel voor scheepsmuren",
+      "tooltip.space_protocol.alien_ship_block": "Vreemd metaal van een alienscheep",
+      "item_group.space_protocol.space_protocol_blocks": "Space Protocol-blokken"
+    },
+    "fr_fr": {
+      "biome.space_protocol.alien_destroyer_biome": "Biome du destructeur alien",
+      "item.space_protocol.alien_ship_block": "Bloc de vaisseau alien",
+      "item.space_protocol.alien_ship_horizontal_panel": "Panneau horizontal de vaisseau alien",
+      "item.space_protocol.alien_ship_vertical_panel": "Panneau vertical de vaisseau alien",
+      "item.space_protocol.alien_ship_tiles": "Dalles de vaisseau alien",
+      "item.space_protocol.alien_ship_ceiling_light": "Lumière de plafond de vaisseau alien",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Lueur froide de la technologie alien",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Grand panneau alien pour les murs du vaisseau",
+      "tooltip.space_protocol.alien_ship_tiles": "Dalles élégantes d’un sol alien",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Large panneau alien pour les murs du vaisseau",
+      "tooltip.space_protocol.alien_ship_block": "Métal étrange provenant d’un vaisseau alien",
+      "item_group.space_protocol.space_protocol_blocks": "Blocs Space Protocol"
+    },
+    "de_de": {
+      "biome.space_protocol.alien_destroyer_biome": "Alien-Zerstörer-Biom",
+      "item.space_protocol.alien_ship_block": "Alien-Schiffblock",
+      "item.space_protocol.alien_ship_horizontal_panel": "Horizontales Alien-Schiffpanel",
+      "item.space_protocol.alien_ship_vertical_panel": "Vertikales Alien-Schiffpanel",
+      "item.space_protocol.alien_ship_tiles": "Alien-Schiffkacheln",
+      "item.space_protocol.alien_ship_ceiling_light": "Alien-Schiff-Deckenlicht",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Kalter Schein außerirdischer Technologie",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Hohes Alien-Panel für Schiffswände",
+      "tooltip.space_protocol.alien_ship_tiles": "Glänzende Fliesen eines Alienbodens",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Breites Alien-Panel für Schiffswände",
+      "tooltip.space_protocol.alien_ship_block": "Seltsames Metall aus einem Alien-Raumschiff",
+      "item_group.space_protocol.space_protocol_blocks": "Space-Protocol-Blöcke"
+    },
+    "pt_pt": {
+      "biome.space_protocol.alien_destroyer_biome": "Bioma do destruidor alienígena",
+      "item.space_protocol.alien_ship_block": "Bloco de nave alienígena",
+      "item.space_protocol.alien_ship_horizontal_panel": "Painel horizontal de nave alienígena",
+      "item.space_protocol.alien_ship_vertical_panel": "Painel vertical de nave alienígena",
+      "item.space_protocol.alien_ship_tiles": "Ladrilhos de nave alienígena",
+      "item.space_protocol.alien_ship_ceiling_light": "Luz de teto de nave alienígena",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Brilho frio de tecnologia alienígena",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Painel alienígena alto para paredes da nave",
+      "tooltip.space_protocol.alien_ship_tiles": "Ladrilhos elegantes de piso alienígena",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Painel alienígena largo para paredes da nave",
+      "tooltip.space_protocol.alien_ship_block": "Metal estranho de uma nave alienígena",
+      "item_group.space_protocol.space_protocol_blocks": "Blocos Space Protocol"
+    },
+    "es_es": {
+      "biome.space_protocol.alien_destroyer_biome": "Bioma del destructor alienígena",
+      "item.space_protocol.alien_ship_block": "Bloque de nave alienígena",
+      "item.space_protocol.alien_ship_horizontal_panel": "Panel horizontal de nave alienígena",
+      "item.space_protocol.alien_ship_vertical_panel": "Panel vertical de nave alienígena",
+      "item.space_protocol.alien_ship_tiles": "Baldosas de nave alienígena",
+      "item.space_protocol.alien_ship_ceiling_light": "Luz de techo de nave alienígena",
+      "tooltip.space_protocol.alien_ship_ceiling_light": "Brillo frío de tecnología alienígena",
+      "tooltip.space_protocol.alien_ship_vertical_panel": "Panel alienígena alto para paredes de la nave",
+      "tooltip.space_protocol.alien_ship_tiles": "Baldosas elegantes de suelo alienígena",
+      "tooltip.space_protocol.alien_ship_horizontal_panel": "Panel alienígena ancho para paredes de la nave",
+      "tooltip.space_protocol.alien_ship_block": "Metal extraño de una nave alienígena",
+      "item_group.space_protocol.space_protocol_blocks": "Bloques Space Protocol"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mc/spaceprotocol/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mc/spaceprotocol/world/features/StructureFeature.java",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModBlocks.java",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModItems.java",
+      "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModTabs.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/accesstransformer.cfg",
@@ -127,6 +409,40 @@
       },
       {
         "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Alien Ship",
+            "children": [
+              {
+                "name": "Block",
+                "children": []
+              },
+              {
+                "name": "Horizontal Panel",
+                "children": []
+              },
+              {
+                "name": "Vertical Panel",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Ceiling Light",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Creative",
         "children": []
       }
     ]
