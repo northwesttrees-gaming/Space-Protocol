@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "space_protocol:block/alien_ship_horizontal_pressure_plate"
+    },
+    "powered=true": {
+      "model": "space_protocol:block/alien_ship_horizontal_pressure_plate_down"
+    }
+  }
+}

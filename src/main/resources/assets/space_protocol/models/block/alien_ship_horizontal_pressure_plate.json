@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "space_protocol:block/alien_ship_horizontal_panel",
+    "particle": "space_protocol:block/alien_ship_horizontal_panel"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "space_protocol:item/alien_ship_tile_wall"
+  }
+}

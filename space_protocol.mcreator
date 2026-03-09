@@ -186,7 +186,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_block.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Block"
     },
     {
       "name": "AlienShipCeilingLightTooltip",
@@ -234,7 +234,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_tiles.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Tiles"
     },
     {
       "name": "SpaceProtocolBlocks",
@@ -279,7 +279,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_panel.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Vertical"
     },
     {
       "name": "AlienShipHorizontalPanel",
@@ -297,7 +297,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_panel.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Horizontal"
     },
     {
       "name": "AlienShipCeilingLight",
@@ -315,7 +315,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_ceiling_light.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Lights"
     },
     {
       "name": "AlienShipVerticalPanelTooltip",
@@ -370,7 +370,7 @@
           "src/main/resources/assets/space_protocol/models/block/polished_alien_ship_block.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Polished"
     },
     {
       "name": "SevlianSolderOreLoot",
@@ -416,7 +416,7 @@
           "src/main/resources/assets/space_protocol/items/alien_ship_grate.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Grate"
     },
     {
       "name": "AlienShipBars",
@@ -434,7 +434,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_bars.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Bars"
     },
     {
       "name": "AlienShipWallLight",
@@ -452,7 +452,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_wall_light.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Lights"
     },
     {
       "name": "AlienShipDoor",
@@ -477,7 +477,7 @@
           "src/main/resources/assets/space_protocol/items/alien_ship_door.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Doors"
     },
     {
       "name": "AlienShipDoorTooltip",
@@ -512,7 +512,7 @@
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship"
+      "path": "~/Blocks/Alien Ship/Trapdoors"
     },
     {
       "name": "AlienShipTrapdoorTooltip",
@@ -539,6 +539,490 @@
         "files": []
       },
       "path": "~/Creative"
+    },
+    {
+      "name": "AlienShipBarsPane",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_bars_pane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_bars_pane.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_bars_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_side_alt.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_post.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_bars_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_noside_alt.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipBarsPaneBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_side.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_bars_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_noside.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Bars"
+    },
+    {
+      "name": "AlienShipGratePane",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_grate_pane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate_pane_side.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_grate_pane.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_grate_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate_pane_side_alt.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_grate_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate_pane_post.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate_pane_noside.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_grate_pane_noside_alt.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipGratePaneBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_grate_pane.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Grate"
+    },
+    {
+      "name": "AlienShipStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_stairs.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_stairs.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipStairsBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_stairs_inner.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_stairs_outer.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_slab_top.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_slab.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipSlabBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_slab.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_slab.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_slab.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_post.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipWallBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_side_tall.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_button_inventory.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipButtonBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_button.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_button.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_button.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_button_pressed.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_pressure_plate.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipPressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_pressure_plate.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_pressure_plate_down.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block"
+    },
+    {
+      "name": "AlienShipTileStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_stairs_inner.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_tile_stairs.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_stairs.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_stairs_outer.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTileStairsBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipTileSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_slab_full.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_slab.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_slab.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_tile_slab.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTileSlabBlock.java",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipTileWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_tile_wall.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_wall.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTileWallBlock.java",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_wall_inventory.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_wall_side_tall.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_wall_post.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipTilePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_pressure_plate.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_tile_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_pressure_plate.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTilePressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_pressure_plate_down.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipTileButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_button_pressed.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_button_inventory.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_tile_button.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTileButtonBlock.java",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_button.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_button.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles"
+    },
+    {
+      "name": "AlienShipHorizontalStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalStairsBlock.java",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_stairs_inner.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_stairs.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_stairs.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_stairs_outer.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_stairs.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal"
+    },
+    {
+      "name": "AlienShipHorizontalSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalSlabBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_top.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_full.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal"
+    },
+    {
+      "name": "AlienShipHorizontalWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_wall.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_wall.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_wall_side_tall.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_wall_post.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalWallBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_wall_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal"
+    },
+    {
+      "name": "AlienShipHorizontalPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_pressure_plate.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_pressure_plate_down.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalPressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal"
+    },
+    {
+      "name": "AlienShipHorizontalButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_button.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_button_pressed.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_button_inventory.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_button.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalButtonBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal"
+    },
+    {
+      "name": "AlienShipVerticalStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_inner.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalStairsBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical"
+    },
+    {
+      "name": "AlienShipVerticalSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab_full.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_slab.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_slab.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalSlabBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical"
+    },
+    {
+      "name": "AlienShipVerticalWall",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_post.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalWallBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_inventory.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_side_tall.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical"
+    },
+    {
+      "name": "AlienShipVerticalPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_pressure_plate.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalPressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate_down.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_pressure_plate.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical"
+    },
+    {
+      "name": "AlienShipVerticalButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_button.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_pressed.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalButtonBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_button.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_button.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_inventory.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical"
+    },
+    {
+      "name": "AlienShipGlass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/items/alien_ship_glass.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipGlassBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_glass.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_glass.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_glass.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Glass"
+    },
+    {
+      "name": "AlienShipGlassPane",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_glass_pane",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass_pane_post.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_glass_pane.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_glass_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass_pane_side_alt.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_glass_pane.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass_pane_noside_alt.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass_pane_side.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipGlassPaneBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass_pane_noside.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_glass_pane.json"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Glass"
     }
   ],
   "variable_elements": [],
@@ -562,6 +1046,36 @@
     ],
     "BLOCKS:minecraft:trapdoors": [
       "~CUSTOM:AlienShipTrapdoor"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:AlienShipVerticalStairs",
+      "~CUSTOM:AlienShipHorizontalStairs",
+      "~CUSTOM:AlienShipTileStairs",
+      "~CUSTOM:AlienShipStairs"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:AlienShipVerticalSlab",
+      "~CUSTOM:AlienShipHorizontalSlab",
+      "~CUSTOM:AlienShipTileSlab",
+      "~CUSTOM:AlienShipSlab"
+    ],
+    "BLOCKS:minecraft:walls": [
+      "~CUSTOM:AlienShipVerticalWall",
+      "~CUSTOM:AlienShipHorizontalWall",
+      "~CUSTOM:AlienShipTileWall",
+      "~CUSTOM:AlienShipWall"
+    ],
+    "BLOCKS:minecraft:pressure_plates": [
+      "~CUSTOM:AlienShipVerticalPressurePlate",
+      "~CUSTOM:AlienShipHorizontalPressurePlate",
+      "~CUSTOM:AlienShipTilePressurePlate",
+      "~CUSTOM:AlienShipPressurePlate"
+    ],
+    "BLOCKS:minecraft:buttons": [
+      "~CUSTOM:AlienShipVerticalButton",
+      "~CUSTOM:AlienShipHorizontalButton",
+      "~CUSTOM:AlienShipTileButton",
+      "~CUSTOM:AlienShipButton"
     ]
   },
   "tab_element_order": {
@@ -569,12 +1083,36 @@
       "SelvianSolderOre",
       "Selvian",
       "AlienShipBlock",
+      "AlienShipStairs",
+      "AlienShipSlab",
+      "AlienShipWall",
+      "AlienShipPressurePlate",
+      "AlienShipButton",
       "PolishedAlienShipBlock",
       "AlienShipHorizontalPanel",
+      "AlienShipHorizontalStairs",
+      "AlienShipHorizontalSlab",
+      "AlienShipHorizontalWall",
+      "AlienShipHorizontalPressurePlate",
+      "AlienShipHorizontalButton",
       "AlienShipVerticalPanel",
+      "AlienShipVerticalStairs",
+      "AlienShipVerticalSlab",
+      "AlienShipVerticalWall",
+      "AlienShipVerticalPressurePlate",
+      "AlienShipVerticalButton",
       "AlienShipTiles",
+      "AlienShipTileStairs",
+      "AlienShipTileSlab",
+      "AlienShipTileWall",
+      "AlienShipTilePressurePlate",
+      "AlienShipTileButton",
       "AlienShipGrate",
+      "AlienShipGratePane",
       "AlienShipBars",
+      "AlienShipBarsPane",
+      "AlienShipGlass",
+      "AlienShipGlassPane",
       "AlienShipCeilingLight",
       "AlienShipWallLight",
       "AlienShipDoor",
@@ -610,7 +1148,31 @@
       "tooltip.space_protocol.alien_ship_door": "Regular doors for the ship",
       "tooltip.space_protocol.alien_ship_trapdoor": "Regular trapdoors for the ship",
       "item.space_protocol.alien_ship_trapdoor": "Alien Ship Trapdoor",
-      "item_group.space_protocol.space_protocol_items": "Space Protocol Items"
+      "item_group.space_protocol.space_protocol_items": "Space Protocol Items",
+      "item.space_protocol.alien_ship_bars_pane": "Alien Ship Bars Pane",
+      "item.space_protocol.alien_ship_grate_pane": "Alien Ship Grate Pane",
+      "item.space_protocol.alien_ship_stairs": "Alien Ship Stairs",
+      "item.space_protocol.alien_ship_slab": "Alien Ship Slab",
+      "item.space_protocol.alien_ship_wall": "Alien Ship Block",
+      "item.space_protocol.alien_ship_button": "Alien Ship Button",
+      "item.space_protocol.alien_ship_pressure_plate": "Alien Ship Pressure Plate",
+      "item.space_protocol.alien_ship_tile_stairs": "Alien Ship Tile Stairs",
+      "item.space_protocol.alien_ship_tile_slab": "Alien Ship Tile Slab",
+      "item.space_protocol.alien_ship_tile_wall": "Alien Ship Tile Wall",
+      "item.space_protocol.alien_ship_tile_pressure_plate": "Alien Ship Tile Wall",
+      "item.space_protocol.alien_ship_tile_button": "Alien Ship Tile Button",
+      "item.space_protocol.alien_ship_horizontal_stairs": "Alien Ship Horizontal Stairs",
+      "item.space_protocol.alien_ship_horizontal_slab": "Alien Ship Horizontal Stairs",
+      "item.space_protocol.alien_ship_horizontal_wall": "Alien Ship Horizontal Wall",
+      "item.space_protocol.alien_ship_horizontal_pressure_plate": "Alien Ship Horizontal Pressure Plate",
+      "item.space_protocol.alien_ship_horizontal_button": "Alien Ship Horizontal Button",
+      "item.space_protocol.alien_ship_vertical_stairs": "Alien Ship Vertical Stairs",
+      "item.space_protocol.alien_ship_vertical_slab": "Alien Ship Vertical Slab",
+      "item.space_protocol.alien_ship_vertical_wall": "Alien Ship Vertical Wall",
+      "item.space_protocol.alien_ship_vertical_pressure_plate": "Alien Ship Vertical Pressure Plate",
+      "item.space_protocol.alien_ship_vertical_button": "Alien Ship Vertical Button",
+      "item.space_protocol.alien_ship_glass": "Alien Ship Glass",
+      "item.space_protocol.alien_ship_glass_pane": "Alien Ship Glass Pane"
     }
   },
   "metadata": {
@@ -658,6 +1220,50 @@
             "children": [
               {
                 "name": "Tooltips",
+                "children": []
+              },
+              {
+                "name": "Block",
+                "children": []
+              },
+              {
+                "name": "Bars",
+                "children": []
+              },
+              {
+                "name": "Grate",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Horizontal",
+                "children": []
+              },
+              {
+                "name": "Vertical",
+                "children": []
+              },
+              {
+                "name": "Polished",
+                "children": []
+              },
+              {
+                "name": "Lights",
+                "children": []
+              },
+              {
+                "name": "Doors",
+                "children": []
+              },
+              {
+                "name": "Trapdoors",
+                "children": []
+              },
+              {
+                "name": "Glass",
                 "children": []
               }
             ]

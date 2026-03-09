@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "space_protocol:block/alien_ship_tiles",
+    "bottom": "space_protocol:block/alien_ship_tiles",
+    "top": "space_protocol:block/alien_ship_tiles",
+    "side": "space_protocol:block/alien_ship_tiles"
+  },
+  "render_type": "solid"
+}

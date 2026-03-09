@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "space_protocol:block/alien_ship_vertical_panel",
+    "bottom": "space_protocol:block/alien_ship_vertical_panel",
+    "top": "space_protocol:block/alien_ship_vertical_panel",
+    "side": "space_protocol:block/alien_ship_vertical_panel"
+  },
+  "render_type": "solid"
+}

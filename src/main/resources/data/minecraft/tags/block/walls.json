@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "space_protocol:alien_ship_vertical_wall",
+    "space_protocol:alien_ship_wall",
+    "space_protocol:alien_ship_tile_wall",
+    "space_protocol:alien_ship_horizontal_wall"
+  ]
+}
