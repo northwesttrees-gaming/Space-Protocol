@@ -14,7 +14,6 @@
   "item.space_protocol.selvian": "Selvian",
   "item.space_protocol.raw_solder": "Raw Solder",
   "item.space_protocol.solder_ingot": "Solder Ingot",
-  "item_group.space_protocol.space_protocol": "Space Protocol",
   "item_group.space_protocol.space_protocol_blocks": "Space Protocol Blocks",
   "item.space_protocol.polished_alien_ship_block": "Polished Alien Ship Block",
   "tooltip.space_protocol.polished_alien_ship_block": "Sleek block from alien flooring",
@@ -26,5 +25,6 @@
   "item.space_protocol.alien_ship_door": "Alien Ship Door",
   "tooltip.space_protocol.alien_ship_door": "Regular doors for the ship",
   "tooltip.space_protocol.alien_ship_trapdoor": "Regular trapdoors for the ship",
-  "item.space_protocol.alien_ship_trapdoor": "Alien Ship Trapdoor"
+  "item.space_protocol.alien_ship_trapdoor": "Alien Ship Trapdoor",
+  "item_group.space_protocol.space_protocol_items": "Space Protocol Items"
 }

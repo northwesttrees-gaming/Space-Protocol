@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
@@ -24,8 +24,8 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "CUTOUT",
+    "connectedSides": true,
+    "transparencyType": "TRANSLUCENT",
     "disableOffset": false,
     "boundingBoxes": [
       {

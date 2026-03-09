@@ -13,7 +13,7 @@
     "rarity": "COMMON",
     "creativeTabs": [
       {
-        "value": "CUSTOM:SpaceProtocol"
+        "value": "CUSTOM:SpaceProtocolItems"
       }
     ],
     "stackSize": 64,

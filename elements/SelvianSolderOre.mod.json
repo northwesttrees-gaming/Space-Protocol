@@ -53,7 +53,7 @@
     "immuneToFire": false,
     "creativeTabs": [
       {
-        "value": "CUSTOM:SpaceProtocol"
+        "value": "CUSTOM:SpaceProtocolBlocks"
       }
     ],
     "destroyTool": "pickaxe",

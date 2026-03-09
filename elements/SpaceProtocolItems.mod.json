@@ -2,9 +2,9 @@
   "_fv": 79,
   "_type": "tab",
   "definition": {
-    "name": "Space Protocol",
+    "name": "Space Protocol Items",
     "icon": {
-      "value": "CUSTOM:Selvian"
+      "value": "CUSTOM:SolderIngot"
     },
     "showSearch": false
   }
