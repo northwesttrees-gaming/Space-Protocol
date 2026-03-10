@@ -43,7 +43,7 @@
     "name": "Alien Ship Vertical Button",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipVerticalPanelTooltip"
+      "name": "AlienShipVerticalButtonTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

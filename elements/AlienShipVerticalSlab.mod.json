@@ -43,7 +43,7 @@
     "name": "Alien Ship Vertical Slab",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipVerticalPanelTooltip"
+      "name": "AlienShipVerticalSlabTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

@@ -43,7 +43,7 @@
     "name": "Alien Ship Bars Pane",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipBlockTooltip"
+      "name": "AlienShipBarsPaneTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

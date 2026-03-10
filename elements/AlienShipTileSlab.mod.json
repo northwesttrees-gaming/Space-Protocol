@@ -43,7 +43,7 @@
     "name": "Alien Ship Tile Slab",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipTilesTooltip"
+      "name": "AlienShipTileSlabTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

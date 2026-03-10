@@ -153,7 +153,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTilesTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Tiles/Block"
     },
     {
       "name": "AlienShipHorizontalPanelTooltip",
@@ -168,7 +168,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalPanelTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Horizontal/Block"
     },
     {
       "name": "AlienShipBlock",
@@ -186,7 +186,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_block.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Block"
     },
     {
       "name": "AlienShipCeilingLightTooltip",
@@ -201,7 +201,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipCeilingLightTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Lights/Ceiling"
     },
     {
       "name": "AlienShipBlockTooltip",
@@ -216,7 +216,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipBlockTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Block/Block"
     },
     {
       "name": "AlienShipTiles",
@@ -234,7 +234,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_tiles.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Block"
     },
     {
       "name": "SpaceProtocolBlocks",
@@ -279,7 +279,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_panel.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Block"
     },
     {
       "name": "AlienShipHorizontalPanel",
@@ -297,7 +297,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_panel.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Block"
     },
     {
       "name": "AlienShipCeilingLight",
@@ -315,7 +315,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_ceiling_light.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Lights"
+      "path": "~/Blocks/Alien Ship/Lights/Ceiling"
     },
     {
       "name": "AlienShipVerticalPanelTooltip",
@@ -330,7 +330,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalPanelTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Vertical/Block"
     },
     {
       "name": "QuickTP",
@@ -398,7 +398,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/PolishedAlienShipBlockTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Polished"
     },
     {
       "name": "AlienShipGrate",
@@ -416,7 +416,7 @@
           "src/main/resources/assets/space_protocol/items/alien_ship_grate.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Grate"
+      "path": "~/Blocks/Alien Ship/Grate/Block"
     },
     {
       "name": "AlienShipBars",
@@ -434,7 +434,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_bars.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Bars"
+      "path": "~/Blocks/Alien Ship/Bars/Block"
     },
     {
       "name": "AlienShipWallLight",
@@ -452,7 +452,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_wall_light.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Lights"
+      "path": "~/Blocks/Alien Ship/Lights/Wall"
     },
     {
       "name": "AlienShipDoor",
@@ -492,7 +492,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipDoorTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Doors"
     },
     {
       "name": "AlienShipTrapdoor",
@@ -527,7 +527,7 @@
           "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTrapdoorTooltipProcedure.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tooltips"
+      "path": "~/Blocks/Alien Ship/Trapdoors"
     },
     {
       "name": "SpaceProtocolItems",
@@ -560,7 +560,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_bars_pane_noside.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Bars"
+      "path": "~/Blocks/Alien Ship/Bars/Pane"
     },
     {
       "name": "AlienShipGratePane",
@@ -582,7 +582,7 @@
           "src/main/resources/assets/space_protocol/items/alien_ship_grate_pane.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Grate"
+      "path": "~/Blocks/Alien Ship/Grate/Pane"
     },
     {
       "name": "AlienShipStairs",
@@ -602,7 +602,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_stairs.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Stairs"
     },
     {
       "name": "AlienShipSlab",
@@ -622,7 +622,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Slab"
     },
     {
       "name": "AlienShipWall",
@@ -643,7 +643,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Wall"
     },
     {
       "name": "AlienShipButton",
@@ -663,7 +663,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Button"
     },
     {
       "name": "AlienShipPressurePlate",
@@ -682,7 +682,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Block"
+      "path": "~/Blocks/Alien Ship/Block/Pressure Plate"
     },
     {
       "name": "AlienShipTileStairs",
@@ -702,7 +702,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Stairs"
     },
     {
       "name": "AlienShipTileSlab",
@@ -722,7 +722,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Slab"
     },
     {
       "name": "AlienShipTileWall",
@@ -743,7 +743,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Wall"
     },
     {
       "name": "AlienShipTilePressurePlate",
@@ -762,7 +762,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Pressure Plate"
     },
     {
       "name": "AlienShipTileButton",
@@ -782,7 +782,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Tiles"
+      "path": "~/Blocks/Alien Ship/Tiles/Button"
     },
     {
       "name": "AlienShipHorizontalStairs",
@@ -802,7 +802,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_stairs.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Stairs"
     },
     {
       "name": "AlienShipHorizontalSlab",
@@ -822,7 +822,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Slab"
     },
     {
       "name": "AlienShipHorizontalWall",
@@ -843,7 +843,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Wall"
     },
     {
       "name": "AlienShipHorizontalPressurePlate",
@@ -862,7 +862,7 @@
           "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Pressure Plate"
     },
     {
       "name": "AlienShipHorizontalButton",
@@ -882,7 +882,7 @@
           "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Horizontal"
+      "path": "~/Blocks/Alien Ship/Horizontal/Button"
     },
     {
       "name": "AlienShipVerticalStairs",
@@ -902,7 +902,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Stairs"
     },
     {
       "name": "AlienShipVerticalSlab",
@@ -922,7 +922,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Slab"
     },
     {
       "name": "AlienShipVerticalWall",
@@ -943,7 +943,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Wall"
     },
     {
       "name": "AlienShipVerticalPressurePlate",
@@ -962,7 +962,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Pressure Plate"
     },
     {
       "name": "AlienShipVerticalButton",
@@ -982,7 +982,7 @@
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Vertical"
+      "path": "~/Blocks/Alien Ship/Vertical/Button"
     },
     {
       "name": "AlienShipGlass",
@@ -1000,7 +1000,7 @@
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_glass.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Glass"
+      "path": "~/Blocks/Alien Ship/Glass/Block"
     },
     {
       "name": "AlienShipGlassPane",
@@ -1022,7 +1022,412 @@
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_glass_pane.json"
         ]
       },
-      "path": "~/Blocks/Alien Ship/Glass"
+      "path": "~/Blocks/Alien Ship/Glass/Pane"
+    },
+    {
+      "name": "AlienShipButtonTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_button_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipButtonTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block/Button"
+    },
+    {
+      "name": "AlienShipPressurePlateTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_pressure_plate_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipPressurePlateTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block/Pressure Plate"
+    },
+    {
+      "name": "AlienShipSlabTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_slab_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipSlabTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block/Slab"
+    },
+    {
+      "name": "AlienShipStairsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_stairs_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipStairsTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block/Stairs"
+    },
+    {
+      "name": "AlienShipWallTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_wall_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipWallTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Block/Wall"
+    },
+    {
+      "name": "AlienShipBarsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_bars_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipBarsTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Bars/Block"
+    },
+    {
+      "name": "AlienShipBarsPaneTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_bars_pane_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipBarsPaneTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Bars/Pane"
+    },
+    {
+      "name": "AlienShipGlassTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_glass_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipGlassTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Glass/Block"
+    },
+    {
+      "name": "AlienShipGlassPaneTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_glass_pane_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipGlassPaneTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Glass/Pane"
+    },
+    {
+      "name": "AlienShipGrateTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_grate_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipGrateTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Grate/Block"
+    },
+    {
+      "name": "AlienShipGratePaneTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_grate_pane_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipGratePaneTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Grate/Pane"
+    },
+    {
+      "name": "AlienShipHorizontalButtonTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_button_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalButtonTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal/Button"
+    },
+    {
+      "name": "AlienShipHorizontalPressurePlateTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_pressure_plate_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalPressurePlateTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal/Pressure Plate"
+    },
+    {
+      "name": "AlienShipHorizontalSlabTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_slab_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalSlabTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal/Slab"
+    },
+    {
+      "name": "AlienShipHorizontalStairsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_stairs_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalStairsTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal/Stairs"
+    },
+    {
+      "name": "AlienShipHorizontalWallTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_horizontal_wall_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipHorizontalWallTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Horizontal/Wall"
+    },
+    {
+      "name": "AlienShipWallLightTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_wall_light_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipWallLightTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Lights/Wall"
+    },
+    {
+      "name": "AlienShipTileButtonTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_button_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTileButtonTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles/Button"
+    },
+    {
+      "name": "AlienShipTilePressurePlateTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_pressure_plate_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTilePressurePlateTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles/Pressure Plate"
+    },
+    {
+      "name": "AlienShipTileSlabTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_slab_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTileSlabTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles/Slab"
+    },
+    {
+      "name": "AlienShipTileStairsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_stairs_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTileStairsTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles/Stairs"
+    },
+    {
+      "name": "AlienShipTileWallTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_tile_wall_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipTileWallTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Tiles/Wall"
+    },
+    {
+      "name": "AlienShipVerticalButtonTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_button_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalButtonTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical/Button"
+    },
+    {
+      "name": "AlienShipVerticalPressurePlateTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_pressure_plate_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalPressurePlateTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical/Pressure Plate"
+    },
+    {
+      "name": "AlienShipVerticalSlabTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_slab_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalSlabTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical/Slab"
+    },
+    {
+      "name": "AlienShipVerticalStairsTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_stairs_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalStairsTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical/Stairs"
+    },
+    {
+      "name": "AlienShipVerticalWallTooltip",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_ship_vertical_wall_tooltip",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mc/spaceprotocol/procedures/AlienShipVerticalWallTooltipProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Alien Ship/Vertical/Wall"
     }
   ],
   "variable_elements": [],
@@ -1142,11 +1547,11 @@
       "item.space_protocol.alien_ship_grate": "Alien Ship Grate",
       "item.space_protocol.alien_ship_bars": "Alien Ship Bars",
       "item.space_protocol.alien_ship_wall_light": "Alien Ship Wall Light",
-      "tooltip.space_protocol.alien_ship_wall_light": "Cold glow of alien technology",
-      "tooltip.space_protocol.alien_ship_grate": "",
+      "tooltip.space_protocol.alien_ship_wall_light": "Cold alien light for walls",
+      "tooltip.space_protocol.alien_ship_grate": "Alien vent grate of starship",
       "item.space_protocol.alien_ship_door": "Alien Ship Door",
-      "tooltip.space_protocol.alien_ship_door": "Regular doors for the ship",
-      "tooltip.space_protocol.alien_ship_trapdoor": "Regular trapdoors for the ship",
+      "tooltip.space_protocol.alien_ship_door": "Alien doors for the ship",
+      "tooltip.space_protocol.alien_ship_trapdoor": "Alien trapdoors for the ship",
       "item.space_protocol.alien_ship_trapdoor": "Alien Ship Trapdoor",
       "item_group.space_protocol.space_protocol_items": "Space Protocol Items",
       "item.space_protocol.alien_ship_bars_pane": "Alien Ship Bars Pane",
@@ -1172,7 +1577,32 @@
       "item.space_protocol.alien_ship_vertical_pressure_plate": "Alien Ship Vertical Pressure Plate",
       "item.space_protocol.alien_ship_vertical_button": "Alien Ship Vertical Button",
       "item.space_protocol.alien_ship_glass": "Alien Ship Glass",
-      "item.space_protocol.alien_ship_glass_pane": "Alien Ship Glass Pane"
+      "item.space_protocol.alien_ship_glass_pane": "Alien Ship Glass Pane",
+      "tooltip.space_protocol.alien_ship_button": "A mysterious alien control system",
+      "tooltip.space_protocol.alien_ship_pressure_plate": "Alien plate sensing nearby pressure",
+      "tooltip.space_protocol.alien_ship_slab": "Half-height alien construction panel",
+      "tooltip.space_protocol.alien_ship_stairs": "Angled steps of alien alloy",
+      "tooltip.space_protocol.alien_ship_wall": "Wall made of alien alloy",
+      "tooltip.space_protocol.alien_ship_bars": "Reinforced alien containment bars",
+      "tooltip.space_protocol.alien_ship_bars_pane": "Thin reinforced alien containment bars",
+      "tooltip.space_protocol.alien_ship_glass": "Clear block of alien glass",
+      "tooltip.space_protocol.alien_ship_glass_pane": "Clear pane of alien glass",
+      "tooltip.space_protocol.alien_ship_grate_pane": "Thin alien vent grate of starship",
+      "tooltip.space_protocol.alien_ship_horizontal_button": "A mysterious alien control system",
+      "tooltip.space_protocol.alien_ship_horizontal_pressure_plate": "Alien plate sensing nearby pressure",
+      "tooltip.space_protocol.alien_ship_horizontal_slab": "Wide slab of alien alloy",
+      "tooltip.space_protocol.alien_ship_horizontal_stairs": "Wide stairs of alien alloy",
+      "tooltip.space_protocol.alien_ship_horizontal_wall": "Wide alien wall segment",
+      "tooltip.space_protocol.alien_ship_tile_button": "A mysterious alien control system",
+      "tooltip.space_protocol.alien_ship_tile_pressure_plate": "Alien plate sensing nearby pressure",
+      "tooltip.space_protocol.alien_ship_tile_slab": "Half-height slab of alien tiles",
+      "tooltip.space_protocol.alien_ship_tile_stairs": "Angled steps of alien tiles",
+      "tooltip.space_protocol.alien_ship_tile_wall": "Reinforced wall of alien tiles",
+      "tooltip.space_protocol.alien_ship_vertical_button": "A mysterious alien control system",
+      "tooltip.space_protocol.alien_ship_vertical_pressure_plate": "Alien plate sensing nearby pressure",
+      "tooltip.space_protocol.alien_ship_vertical_slab": "Tall slab of alien alloy",
+      "tooltip.space_protocol.alien_ship_vertical_stairs": "Tall stepped panel of alien alloy",
+      "tooltip.space_protocol.alien_ship_vertical_wall": "Tall alien wall segment"
     }
   },
   "metadata": {
@@ -1219,32 +1649,146 @@
             "name": "Alien Ship",
             "children": [
               {
-                "name": "Tooltips",
-                "children": []
-              },
-              {
                 "name": "Block",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Button",
+                    "children": []
+                  },
+                  {
+                    "name": "Pressure Plate",
+                    "children": []
+                  },
+                  {
+                    "name": "Slab",
+                    "children": []
+                  },
+                  {
+                    "name": "Stairs",
+                    "children": []
+                  },
+                  {
+                    "name": "Wall",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Bars",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Pane",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Grate",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Pane",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Tiles",
-                "children": []
+                "children": [
+                  {
+                    "name": "Button",
+                    "children": []
+                  },
+                  {
+                    "name": "Pressure Plate",
+                    "children": []
+                  },
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Slab",
+                    "children": []
+                  },
+                  {
+                    "name": "Stairs",
+                    "children": []
+                  },
+                  {
+                    "name": "Wall",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Horizontal",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Button",
+                    "children": []
+                  },
+                  {
+                    "name": "Pressure Plate",
+                    "children": []
+                  },
+                  {
+                    "name": "Slab",
+                    "children": []
+                  },
+                  {
+                    "name": "Stairs",
+                    "children": []
+                  },
+                  {
+                    "name": "Wall",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Vertical",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Button",
+                    "children": []
+                  },
+                  {
+                    "name": "Pressure Plate",
+                    "children": []
+                  },
+                  {
+                    "name": "Slab",
+                    "children": []
+                  },
+                  {
+                    "name": "Stairs",
+                    "children": []
+                  },
+                  {
+                    "name": "Wall",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Polished",
@@ -1252,7 +1796,16 @@
               },
               {
                 "name": "Lights",
-                "children": []
+                "children": [
+                  {
+                    "name": "Ceiling",
+                    "children": []
+                  },
+                  {
+                    "name": "Wall",
+                    "children": []
+                  }
+                ]
               },
               {
                 "name": "Doors",
@@ -1264,7 +1817,16 @@
               },
               {
                 "name": "Glass",
-                "children": []
+                "children": [
+                  {
+                    "name": "Block",
+                    "children": []
+                  },
+                  {
+                    "name": "Pane",
+                    "children": []
+                  }
+                ]
               }
             ]
           },

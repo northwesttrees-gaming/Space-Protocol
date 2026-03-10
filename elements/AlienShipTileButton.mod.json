@@ -43,7 +43,7 @@
     "name": "Alien Ship Tile Button",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipTilesTooltip"
+      "name": "AlienShipTileButtonTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

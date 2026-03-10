@@ -42,7 +42,7 @@
     "name": "Alien Ship Wall Light",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipCeilingLightTooltip"
+      "name": "AlienShipWallLightTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

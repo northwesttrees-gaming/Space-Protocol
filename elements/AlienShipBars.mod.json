@@ -42,7 +42,7 @@
     "name": "Alien Ship Bars",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipBlockTooltip"
+      "name": "AlienShipBarsTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

@@ -42,7 +42,7 @@
     "name": "Alien Ship Grate",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipBlockTooltip"
+      "name": "AlienShipGrateTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

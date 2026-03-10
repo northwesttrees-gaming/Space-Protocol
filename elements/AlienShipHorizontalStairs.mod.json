@@ -43,7 +43,7 @@
     "name": "Alien Ship Horizontal Stairs",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipHorizontalPanelTooltip"
+      "name": "AlienShipHorizontalStairsTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

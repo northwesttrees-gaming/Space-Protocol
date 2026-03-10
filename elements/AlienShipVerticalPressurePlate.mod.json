@@ -43,7 +43,7 @@
     "name": "Alien Ship Vertical Pressure Plate",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipVerticalPanelTooltip"
+      "name": "AlienShipVerticalPressurePlateTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,

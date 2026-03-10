@@ -20,7 +20,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
-import net.mc.spaceprotocol.procedures.AlienShipHorizontalPanelTooltipProcedure;
+import net.mc.spaceprotocol.procedures.AlienShipHorizontalStairsTooltipProcedure;
 import net.mc.spaceprotocol.init.SpaceProtocolModBlocks;
 import net.mc.spaceprotocol.SpaceProtocolMod;
 
@@ -50,7 +50,7 @@ public class AlienShipHorizontalStairsBlock extends StairBlock {
 		public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, TooltipDisplay tooltipDisplay, Consumer<Component> componentConsumer, TooltipFlag flag) {
 			super.appendHoverText(itemstack, context, tooltipDisplay, componentConsumer, flag);
 			Entity entity = itemstack.getEntityRepresentation() != null ? itemstack.getEntityRepresentation() : SpaceProtocolMod.clientPlayer();
-			String hoverText = AlienShipHorizontalPanelTooltipProcedure.execute();
+			String hoverText = AlienShipHorizontalStairsTooltipProcedure.execute();
 			if (hoverText != null) {
 				for (String line : hoverText.split("\n")) {
 					componentConsumer.accept(Component.literal(line));

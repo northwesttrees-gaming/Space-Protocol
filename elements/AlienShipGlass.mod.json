@@ -42,7 +42,7 @@
     "name": "Alien Ship Glass",
     "specialInformation": {
       "fixedValue": [],
-      "name": "AlienShipBlockTooltip"
+      "name": "AlienShipGlassTooltip"
     },
     "hardness": 1.0,
     "resistance": 10.0,
