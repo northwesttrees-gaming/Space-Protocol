@@ -1,6 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:command_block"
+    "space_protocol:selvian"
   ]
 }

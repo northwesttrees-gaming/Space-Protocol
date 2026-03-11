@@ -4,7 +4,7 @@
       "name": "AlienDestroyer",
       "type": "dimension",
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "alien_destroyer",
       "metadata": {
         "files": [
@@ -1433,9 +1433,6 @@
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
-    "BLOCKS:mod:alien_destroyer_infinity_burn": [
-      "Blocks.COMMAND_BLOCK"
-    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:Selvian",
       "~CUSTOM:SelvianSolderOre"
@@ -1481,6 +1478,13 @@
       "~CUSTOM:AlienShipHorizontalButton",
       "~CUSTOM:AlienShipTileButton",
       "~CUSTOM:AlienShipButton"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:Selvian",
+      "~Blocks.AIR"
+    ],
+    "BLOCKS:mod:infiniburn_alien_destroyer": [
+      "CUSTOM:Selvian"
     ]
   },
   "tab_element_order": {
