@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "space_protocol:alien_ship_slab",
-    "space_protocol:alien_ship_tile_slab",
-    "space_protocol:alien_ship_horizontal_slab",
-    "space_protocol:alien_ship_vertical_slab"
+    "space_protocol:alien_slab",
+    "space_protocol:alien_tile_slab",
+    "space_protocol:horizontal_alien_slab",
+    "space_protocol:vertical_alien_slab"
   ]
 }

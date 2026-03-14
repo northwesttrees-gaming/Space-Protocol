@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "space_protocol:block/alien_block",
+    "bottom": "space_protocol:block/alien_block",
+    "top": "space_protocol:block/alien_block",
+    "side": "space_protocol:block/alien_block"
+  },
+  "render_type": "solid"
+}

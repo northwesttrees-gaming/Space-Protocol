@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side_alt",
+  "textures": {
+    "particle": "space_protocol:block/alien_grate",
+    "pane": "space_protocol:block/alien_grate",
+    "edge": "space_protocol:block/alien_grate"
+  },
+  "render_type": "translucent"
+}

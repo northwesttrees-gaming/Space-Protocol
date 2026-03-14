@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "space_protocol:block/alien_slab"
+    },
+    "type=top": {
+      "model": "space_protocol:block/alien_slab_top"
+    },
+    "type=double": {
+      "model": "space_protocol:block/alien_slab_full"
+    }
+  }
+}

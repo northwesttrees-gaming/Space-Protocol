@@ -1,0 +1,9 @@
+{
+  "parent": "block/template_glass_pane_side",
+  "textures": {
+    "particle": "space_protocol:block/alien_glass",
+    "pane": "space_protocol:block/alien_glass",
+    "edge": "space_protocol:block/alien_glass"
+  },
+  "render_type": "translucent"
+}

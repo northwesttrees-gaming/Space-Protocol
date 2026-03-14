@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_right_open",
+  "textures": {
+    "particle": "space_protocol:block/alien_door_bottom",
+    "bottom": "space_protocol:block/alien_door_bottom",
+    "top": "space_protocol:block/alien_door_top"
+  },
+  "render_type": "cutout"
+}

@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "space_protocol:alien_ship_vertical_pressure_plate",
-    "space_protocol:alien_ship_tile_pressure_plate",
-    "space_protocol:alien_ship_horizontal_pressure_plate",
-    "space_protocol:alien_ship_pressure_plate"
+    "space_protocol:alien_pressure_plate"
   ]
 }

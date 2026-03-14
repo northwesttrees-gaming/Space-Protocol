@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "space_protocol:block/alien_ship_block",
-    "particle": "space_protocol:block/alien_ship_block"
-  },
-  "render_type": "solid"
-}

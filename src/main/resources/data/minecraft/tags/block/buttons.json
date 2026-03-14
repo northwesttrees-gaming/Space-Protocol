@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "space_protocol:alien_ship_button",
-    "space_protocol:alien_ship_vertical_button",
-    "space_protocol:alien_ship_horizontal_button",
-    "space_protocol:alien_ship_tile_button"
+    "space_protocol:alien_button"
   ]
 }

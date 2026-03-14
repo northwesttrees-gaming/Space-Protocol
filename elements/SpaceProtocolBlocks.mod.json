@@ -4,7 +4,7 @@
   "definition": {
     "name": "Space Protocol Blocks",
     "icon": {
-      "value": "CUSTOM:AlienShipBlock"
+      "value": "CUSTOM:AlienBlock"
     },
     "showSearch": false
   }
