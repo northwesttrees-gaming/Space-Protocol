@@ -40,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Alien Ship Block",
+    "name": "Alien Ship Wall",
     "specialInformation": {
       "fixedValue": [],
       "name": "AlienShipWallTooltip"

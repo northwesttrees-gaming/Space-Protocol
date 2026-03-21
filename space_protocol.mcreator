@@ -632,14 +632,14 @@
       "registry_name": "alien_ship_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_wall.json",
-          "src/main/resources/assets/space_protocol/items/alien_ship_wall.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_post.json",
           "src/main/java/net/mc/spaceprotocol/block/AlienShipWallBlock.java",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_side_tall.json",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_wall.json",
-          "src/main/resources/assets/space_protocol/models/item/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_wall.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_post.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_side_tall.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_wall_inventory.json"
         ]
       },
@@ -753,13 +753,13 @@
       "registry_name": "alien_ship_tile_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_pressure_plate.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipTilePressurePlateBlock.java",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_tile_pressure_plate.json",
           "src/main/resources/assets/space_protocol/items/alien_ship_tile_pressure_plate.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_pressure_plate.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipTilePressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_pressure_plate.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_pressure_plate_down.json",
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_tile_pressure_plate.json"
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_tile_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_tile_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/Alien Ship/Tiles/Pressure Plate"
@@ -812,14 +812,14 @@
       "registry_name": "alien_ship_horizontal_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_slab.json",
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_horizontal_slab.json",
-          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_slab.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalSlabBlock.java",
-          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_slab.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_top.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_full.json"
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab_full.json",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_horizontal_slab.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_horizontal_slab.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipHorizontalSlabBlock.java",
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_horizontal_slab.json"
         ]
       },
       "path": "~/Blocks/Alien Ship/Horizontal/Slab"
@@ -892,14 +892,14 @@
       "registry_name": "alien_ship_vertical_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_stairs.json",
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_stairs.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_inner.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalStairsBlock.java",
           "src/main/resources/assets/space_protocol/items/alien_ship_vertical_stairs.json",
-          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_stairs.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_outer.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_inner.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_stairs.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_stairs_outer.json"
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_stairs.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalStairsBlock.java",
+          "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_stairs.json"
         ]
       },
       "path": "~/Blocks/Alien Ship/Vertical/Stairs"
@@ -914,11 +914,11 @@
         "files": [
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_slab.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab_full.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalSlabBlock.java",
           "src/main/resources/assets/space_protocol/items/alien_ship_vertical_slab.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab.json",
           "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_slab.json",
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_slab.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalSlabBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_slab_top.json"
         ]
       },
@@ -932,15 +932,15 @@
       "registry_name": "alien_ship_vertical_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_wall.json",
           "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_wall.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_side_tall.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_post.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalWallBlock.java",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_inventory.json",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_wall.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall_side_tall.json",
           "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_wall.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_wall.json"
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalWallBlock.java"
         ]
       },
       "path": "~/Blocks/Alien Ship/Vertical/Wall"
@@ -953,13 +953,13 @@
       "registry_name": "alien_ship_vertical_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate.json",
-          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_pressure_plate.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalPressurePlateBlock.java",
-          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_pressure_plate.json",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_pressure_plate.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate_down.json",
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_pressure_plate.json"
+          "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_pressure_plate.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_pressure_plate.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalPressurePlateBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_pressure_plate_down.json"
         ]
       },
       "path": "~/Blocks/Alien Ship/Vertical/Pressure Plate"
@@ -972,14 +972,14 @@
       "registry_name": "alien_ship_vertical_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_button.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalButtonBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button.json",
           "src/main/resources/assets/space_protocol/models/item/alien_ship_vertical_button.json",
           "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_pressed.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipVerticalButtonBlock.java",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_inventory.json",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_vertical_button.json",
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_button.json",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_vertical_button_inventory.json"
+          "src/main/resources/assets/space_protocol/items/alien_ship_vertical_button.json",
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_vertical_button.json"
         ]
       },
       "path": "~/Blocks/Alien Ship/Vertical/Button"
@@ -993,11 +993,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/space_protocol/items/alien_ship_glass.json",
-          "src/main/java/net/mc/spaceprotocol/block/AlienShipGlassBlock.java",
-          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass.json",
           "src/main/resources/data/space_protocol/loot_table/blocks/alien_ship_glass.json",
+          "src/main/resources/assets/space_protocol/models/block/alien_ship_glass.json",
           "src/main/resources/assets/space_protocol/models/item/alien_ship_glass.json",
-          "src/main/resources/assets/space_protocol/blockstates/alien_ship_glass.json"
+          "src/main/resources/assets/space_protocol/blockstates/alien_ship_glass.json",
+          "src/main/java/net/mc/spaceprotocol/block/AlienShipGlassBlock.java"
         ]
       },
       "path": "~/Blocks/Alien Ship/Glass/Block"
@@ -1558,16 +1558,16 @@
       "item.space_protocol.alien_ship_grate_pane": "Alien Ship Grate Pane",
       "item.space_protocol.alien_ship_stairs": "Alien Ship Stairs",
       "item.space_protocol.alien_ship_slab": "Alien Ship Slab",
-      "item.space_protocol.alien_ship_wall": "Alien Ship Block",
+      "item.space_protocol.alien_ship_wall": "Alien Ship Wall",
       "item.space_protocol.alien_ship_button": "Alien Ship Button",
       "item.space_protocol.alien_ship_pressure_plate": "Alien Ship Pressure Plate",
       "item.space_protocol.alien_ship_tile_stairs": "Alien Ship Tile Stairs",
       "item.space_protocol.alien_ship_tile_slab": "Alien Ship Tile Slab",
       "item.space_protocol.alien_ship_tile_wall": "Alien Ship Tile Wall",
-      "item.space_protocol.alien_ship_tile_pressure_plate": "Alien Ship Tile Wall",
+      "item.space_protocol.alien_ship_tile_pressure_plate": "Alien Ship Tile Pressure Plate",
       "item.space_protocol.alien_ship_tile_button": "Alien Ship Tile Button",
       "item.space_protocol.alien_ship_horizontal_stairs": "Alien Ship Horizontal Stairs",
-      "item.space_protocol.alien_ship_horizontal_slab": "Alien Ship Horizontal Stairs",
+      "item.space_protocol.alien_ship_horizontal_slab": "Alien Ship Horizontal Slab",
       "item.space_protocol.alien_ship_horizontal_wall": "Alien Ship Horizontal Wall",
       "item.space_protocol.alien_ship_horizontal_pressure_plate": "Alien Ship Horizontal Pressure Plate",
       "item.space_protocol.alien_ship_horizontal_button": "Alien Ship Horizontal Button",
@@ -1607,15 +1607,15 @@
   },
   "metadata": {
     "files": [
-      "src/main/java/net/mc/spaceprotocol/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mc/spaceprotocol/world/features/StructureFeature.java",
+      "src/main/java/net/mc/spaceprotocol/world/features/configurations/StructureFeatureConfiguration.java",
       "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModBlocks.java",
       "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModItems.java",
       "src/main/java/net/mc/spaceprotocol/init/SpaceProtocolModTabs.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mc/spaceprotocol/SpaceProtocolMod.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/accesstransformer.cfg",
-      "src/main/java/net/mc/spaceprotocol/SpaceProtocolMod.java"
+      "src/main/resources/META-INF/neoforge.mods.toml"
     ]
   },
   "foldersRoot": {

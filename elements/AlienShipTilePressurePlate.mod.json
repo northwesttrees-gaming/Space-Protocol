@@ -40,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Alien Ship Tile Wall",
+    "name": "Alien Ship Tile Pressure Plate",
     "specialInformation": {
       "fixedValue": [],
       "name": "AlienShipTilePressurePlateTooltip"
