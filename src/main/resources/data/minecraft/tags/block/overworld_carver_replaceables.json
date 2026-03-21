@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:air",
+    "space_protocol:selvian"
+  ]
+}

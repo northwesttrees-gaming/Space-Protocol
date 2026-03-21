@@ -9,10 +9,10 @@
     ],
     "worldGenType": "End like gen",
     "mainFillerBlock": {
-      "value": "Blocks.DEEPSLATE"
+      "value": "CUSTOM:Selvian"
     },
     "fluidBlock": {
-      "value": "Blocks.DEEPSLATE"
+      "value": "CUSTOM:Selvian"
     },
     "seaLevel": 0,
     "generateOreVeins": false,
@@ -36,7 +36,7 @@
     "hasFixedTime": false,
     "fixedTimeValue": 0,
     "coordinateScale": 1.0,
-    "infiniburnTag": "space_protocol:alien_destroyer_infinity_burn",
+    "infiniburnTag": "space_protocol:infiniburn_alien_destroyer",
     "bedWorks": true,
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,

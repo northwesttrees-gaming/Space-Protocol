@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "space_protocol:block/alien_block",
+    "particle": "space_protocol:block/alien_block"
+  },
+  "render_type": "solid"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "space_protocol:block/polished_alien_ship_block",
-    "particle": "space_protocol:block/polished_alien_ship_block"
-  },
-  "render_type": "solid"
-}

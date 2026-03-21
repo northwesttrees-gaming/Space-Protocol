@@ -9,7 +9,7 @@
   "has_ceiling": false,
   "coordinate_scale": 1,
   "ambient_light": 0,
-  "infiniburn": "#space_protocol:alien_destroyer_infinity_burn",
+  "infiniburn": "#space_protocol:infiniburn_alien_destroyer",
   "min_y": 0,
   "height": 256,
   "logical_height": 256,
